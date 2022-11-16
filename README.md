@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Preparación de la materia prima e insumos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/635700-CF5-TC-PRCSS_PRDCCN_PANELERA](https://sena-externos.github.io/635700-CF5-TC-PRCSS_PRDCCN_PANELERA)
 
 #
 
