@@ -2,13 +2,19 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 65%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 31%
+    right: 10%
+  
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 58%
 
 
 @keyframes float1
@@ -17,3 +23,21 @@
 
   100%
     transform: translateY(0px)
+
+.boton *, .boton--sm * 
+  color: #FFFFFF
+
+.cajon-b.color-primario:before 
+  background-color: #EDE5F9 !important
+  top: 50%
+  left: 60%
+  right: 0
+  bottom: 0
+
+.color-slyder
+  background-color: #FBE0E0 !important
+
+.slyder-a__bullets__item--active 
+  background-color: #E2872C
+  border-color: #E2872C
+  opacity: 1
