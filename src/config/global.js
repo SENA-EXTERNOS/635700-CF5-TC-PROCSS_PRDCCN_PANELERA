@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Preparación de la materia prima e insumos',
     descripcionCurso:
       'En Colombia, muchas familias campesinas se benefician del proceso de producción panelera desde la transformación del jugo de caña, pasando por la limpieza y evaporación, hasta el empaque y la distribución de la panela. El conocimiento generacional se refleja en la calidad del producto, por ello, el proceso deber estar basado en las buenas prácticas de manufactura. ',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.png'),
     imagenesDecorativasBanner: [
       {

@@ -315,6 +315,18 @@
           .col-8
             img(src='@/assets/curso/temas/T1/img-28.svg' alt='AvatarTop')
         p.text-center La distribución de la planta debe tener un flujo secuencial del proceso de elaboración con el propósito de prevenir la contaminación cruzada, la fermentación de los residuos en los jugos, los malos olores y evitar la presencia de insectos.
+  
+    p.mb-5 La imagen que se presenta a continuación, muestra los elementos que se deben tener en cuenta en una buena práctica de mantenimiento. 
+
+  
+    .titulo-sexto.color-acento-contenido
+      p.mb-0 
+        p.mb-1 <b>Figura 5.</b><i> Una buena práctica de mantenimiento</i>
+        
+    .col-md-6.mx-auto.mb-5
+      h2.justify-content-between.align-items-center Mantenimiento
+
+
 
 
 </template>
