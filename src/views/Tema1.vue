@@ -91,7 +91,7 @@
 
     .row.mt-5
       .col-10.offset-1
-        .titulo-sexto.color-acento-contenido.p-1.mb-5
+        .color-acento-contenido.p-1.mb-5
           .tarjeta.color-tarjetas.p-3.mb-5
             .row.justify-content-around.align-items-center
               .col
@@ -368,7 +368,7 @@
         p Los molinos, cámaras de combustión, pailas y palas usados en diferentes operaciones unitarias del proceso panelero, ofrecen grandes oportunidades de mejora a nivel de diseño, operación y mantenimiento, constituyéndose en un campo fértil para el diseño y desarrollo de proyectos de investigación, desarrollo e innovación.
         p.mb-0 A continuación, se presentan algunas características de las hornillas y los elementos asociados a ellas:
 
-
+    
     .row.mb-5.mt-5
       .col-md-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="fac")
