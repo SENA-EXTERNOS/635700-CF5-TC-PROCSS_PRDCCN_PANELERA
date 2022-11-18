@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5(style="overflow:hidden")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -247,17 +247,17 @@
 
 
     .scroll-x-tabla
-      .col-10.offset-2.bg-amarillo-claro.borde-der-secundario-19.px-5.py-4.mt-5
+      .col-10.offset-2.bg-amarillo-claro.borde-der-secundario-19.mt-5
         .row.mt-5
-        .col-10.px-5.py-4
-          .row
-            .col-12.d-lg-block
-              .bloque-texto-x.fcb.p-3.p-sm-4.p-md-5.mb-5
-                .bloque-texto-x__img(data-aos='fade-right')(
-                  :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-21.png')})`}"
-                )
-                .bloque-texto-x__texto.p-4
-                  p.mb-5 La capacidad de la molienda es la característica más importante a tener en cuenta, pues debe estar disponible para ser utilizada con la cantidad de caña que llega al trapiche, centrándose en la capacidad del molino respecto a las dimensiones de las mazas, las características de tamaño, potencia del motor y las especificaciones de la correa. El equipo de molienda se debe manejar de forma óptima para lograr la extracción de jugos con un consumo de potencia aceptable y que permita moler cañas adicionales que lleguen al trapiche sin ningún inconveniente o retrasos.
+          .col-10
+            .row
+              .col-12.d-lg-block
+                .bloque-texto-x.fcb.p-3.p-sm-4.p-md-5.mb-5
+                  .bloque-texto-x__img(data-aos='fade-right')(
+                    :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-21.png')})`}"
+                  )
+                  .bloque-texto-x__texto.p-4
+                    p.mb-5 La capacidad de la molienda es la característica más importante a tener en cuenta, pues debe estar disponible para ser utilizada con la cantidad de caña que llega al trapiche, centrándose en la capacidad del molino respecto a las dimensiones de las mazas, las características de tamaño, potencia del motor y las especificaciones de la correa. El equipo de molienda se debe manejar de forma óptima para lograr la extracción de jugos con un consumo de potencia aceptable y que permita moler cañas adicionales que lleguen al trapiche sin ningún inconveniente o retrasos.
 
     .col-md-6.mx-auto.mb-5
       figure
@@ -323,10 +323,312 @@
       p.mb-0 
         p.mb-1 <b>Figura 5.</b><i> Una buena práctica de mantenimiento</i>
         
+    .row.justify-content-between.align-items-center
+      .col-md-6.mx-auto.mb-5
+        h2 Mantenimiento
+
+    .col-md-10.mx-auto.mb-5
+      .tarjeta.p-3.fca 
+        p.p-2.border1.mb-0 Durante el mantenimiento se debe acceder a todas las partes del molino y realizar la limpieza de manera fácil, al igual que la desinfección y el mantenimiento y génico de los equipos y en las áreas adyacentes
+
+    ImagenInfografica.color-secundario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/T1/img-29.png', alt='Texto que describa la imagen')
+
+      .tarjeta.tarjeta-primera.p-3(x="6.9%" y="89.8%" numero="")
+        p.p-2 Conservar la máquina limpia
+
+      .tarjeta.tarjeta-segunda.p-3(x="23.9%" y="89.8%" numero="")
+        p.p-2 Comprobar el equipo y verificar las piezas
+
+      .tarjeta.tarjeta-tercera.p-3(x="41.5%" y="89.8%" numero="")
+        p.p-2 Verificar las uniones de la banda
+
+      .tarjeta.tarjeta-primera.p-3(x="58.5%" y="89.8%" numero="")
+        p.p-2 Tensar adecuadamente las bandas
+      
+      .tarjeta.tarjeta-segunda.p-3(x="75.8%" y="89.8%" numero="")
+        p.p-2 Ajustar las mazas adecuadamente
+
+      .tarjeta.tarjeta-cuarta.p-3(x="93.3%" y="89.8%" numero="")
+        p.p-2 Al finalizar la molienda, lavar las piezas del molino
+
+
+    Separador
+
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3 Hornillas 
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-3(data-aos="fade-right")
+        img(src='@/assets/curso/temas/T1/img-30.svg', alt='mujer con un laptop y un robot')
+      .col-md-9
+        p Los molinos, cámaras de combustión, pailas y palas usados en diferentes operaciones unitarias del proceso panelero, ofrecen grandes oportunidades de mejora a nivel de diseño, operación y mantenimiento, constituyéndose en un campo fértil para el diseño y desarrollo de proyectos de investigación, desarrollo e innovación.
+        p.mb-0 A continuación, se presentan algunas características de las hornillas y los elementos asociados a ellas:
+
+
+    .row.mb-5.mt-5
+      .col-md-8
+        AcordionA.mb-5(tipo="a" clase-tarjeta="fac")
+          .row(titulo="Aspectos críticos ")
+            .col-md-10.mb-4.mb-md-0
+              p.mb-3 Dentro del proceso predominan la pérdida de calor que bordea el 41 %, la falta de automatización en operaciones unitarias, el alto riesgo operacional y ambiental. El acceso a recursos para la reconversión tecnológica de las hornillas pasa por el análisis económico y financiero de los esquemas de reconversión, los cuales son escasos o no se han divulgado en los medios de comunicación.
+
+          .row(titulo="El horno")
+            .col-md-10.mb-4.mb-md-0
+              p Es el resultado de dividir la frecuencia absoluta acumulada entre el total de las repeticiones en este caso 12152.
+          
+          .row(titulo="Las hornillas")
+            .col-md-10.mb-4.mb-md-0
+              p Se caracterizan por ser energéticamente eficientes puesto que emplean el bagazo como combustible para el calentamiento de los jugos y la evaporación del agua, este desecho proviene de la molienda de la caña de azúcar. Durante el proceso de calentamiento se debe permitir eliminar por completo o disminuir sustancialmente los combustibles adicionales como la leña, el carbón y el caucho de llantas usadas, mitigando problemas de deforestación, erosión, contaminación del aire y calentamiento del planeta.
+
+      .col-md-4.mb-5.mb-md-0
+        figure
+          img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-31.png', alt='')
+
+    p.mb-5 Las imágenes que se presentan a continuación, representan elementos relevantes que explican algunas de las características de las hornillas.
+
+
+    .tarjeta.color-slyder.p-4.mb-5
+      SlyderA(tipo="b")
+        .row.justify-content-around.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            p El diagrama de Sankey, muestra el funcionamiento de las hornillas paneleras, específicamente en lo que se refiere al calor: pérdidas y aprovechamiento.
+        
+          .col-md-6
+            figure
+              .titulo-sexto.color-acento-contenido
+                p.mb-0 
+                  p.mb-1 <b>Figura 6.</b><i> Diagrama de Sankey en hornillas panelera </i>
+              img(src='@/assets/curso/temas/T1/img-32.png', alt='Texto que describa la imagen')
+              figcaption Nota: Adaptada de Curso básico descriptivo para el diseño, construcción y operación de hornillas paneleras. García, H. (2020). 
+
+        .row.justify-content-around.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            p Las partes principales de una hornilla panelera son: cámara de combustión, el cenicero, las pailas, el ducto de humos y la chimenea. 
+        
+          .col-md-6
+            figure
+              .titulo-sexto.color-acento-contenido
+                p.mb-0 
+                  p.mb-1 <b>Figura 7.</b><i> Partes principales de una hornilla</i>
+              img(src='@/assets/curso/temas/T1/img-33.png', alt='Texto que describa la imagen')
+
+    ol.lista-ol--cuadro.mb-3
+      li
+        .lista-ol--cuadro__vineta.listas-primera 
+          span 
+        p <b>Composición de las hornillas</b>
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-34.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las hornillas se componen de la cámara de combustión, el ducto de humos, las pailas y la chimenea. El proceso inicia con la molienda necesaria para la extracción del jugo que suma aproximadamente entre el 50 % y el 60 %, luego da lugar a la eliminación de sus impurezas, la caña verde (bagazo) se lleva a la cámara de combustión para que produzca los gases necesarios para el calentamiento y evaporación del jugo en cada una de las diferentes etapas: clarificación, evaporación y concentración (Cristancho, 2012).
+
+    p.mb-5 A continuación, se desarrollan algunas de las etapas del proceso de producción panelera, según Cristancho, (2012). 
+
+    .row.mb-5.mt-5
+      .col-md-8
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row.justify-content-around.align-items-center(titulo="Prelimpieza")
+            .col-md-12.mb-4.mb-md-0
+              p En esta etapa preliminar ingresa crudo el jugo de la caña, inmediatamente después de la extracción; se deposita en un recipiente al que no se le está aplicando calor para que, por efecto de la sedimentación y utilizando medios físicos, sea posible extraer cerca del 90 % de las impurezas presentes en este.
+          
+          
+          .row.justify-content-around.align-items-center(titulo="Clarificación")
+            .col-md-12.mb-4.mb-md-0
+              p Este proceso se lleva a cabo mediante la acción combinada de calor extraído de la hornilla y de agentes clarificantes provenientes de las cortezas de algunas plantas como el guásamo, el cadillo, el valso, la escoba babosa y del fruto del cacao, que facilitan la aglomeración de los residuos restantes de la prelimpieza y permite su extracción.
+
+          .row.justify-content-around.align-items-center(titulo="Evaporación")
+            .col-md-12.mb-4.mb-md-0
+              p En esta etapa se extrae alrededor del 89 % del agua presente en los jugos, llevándolos desde un Brix de 17 º hasta 65 ºB, en consecuencia, es la etapa del proceso que requiere más calor. 
+          
+          
+          .row.justify-content-around.align-items-center(titulo="Concentración")
+            .col-md-12.mb-4.mb-md-0
+              p Luego de la etapa de evaporación el jugo cambia su nombre por el de miel, de manera simbólica debido a su contextura densa, la cual se lleva desde los 65 ºB hasta los 93 ºB donde se convierte en panela, luego de ser extraído al 10 % de agua restante. En este proceso es necesario agregar a la miel antiadherentes y antiespumantes como cebo, aceite vegetal o cera de laurel.
+
+      .col-md-4.mb-5.mb-md-0
+          figure
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-35.png', alt='')
+
+    .col-md-10.mx-auto.mb-5
+      .tarjeta.color-tarjetas-segunda.p-3.mb-5
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/temas/T1/img-36.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p.text-small Para profundizar en el estudio de las hornillas y aprender más sobre sus características y funcionamiento, lo invitamos a observar atentamente el video Hornillas paneleras eficientes, (AEA Región Andina, 2014).
+              .col-auto.mb-3.mb-sm-0
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=01jkgR9jotM" target="_blank")
+                  span  Enlace
+                  i.fas.fa-link
+
+    ol.lista-ol--cuadro.mb-4
+      li
+        .lista-ol--cuadro__vineta.listas-primera 
+          span 
+        p <b>Cámara de combustión</b>
+
+    p.mb-5 La hornilla tiene un espacio donde se realiza la combustión y su forma debe cambiar de acuerdo al tipo de bagazo o combustible a utilizar, está ubicada en la parte anterior de la hornilla, además contiene el cenicero, la puerta de alimentación y la parrilla. Su construcción debe hacerse en un material como el ladrillo refractario que pueda soportar cambios bruscos y elevados de temperatura en rangos variables.
+
     .col-md-6.mx-auto.mb-5
-      h2.justify-content-between.align-items-center Mantenimiento
+      figure
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 
+            p.mb-1 <b>Figura 8.</b><i> Tipos de cámaras de combustión</i>
+        img(src='@/assets/curso/temas/T1/img-37.png', alt='Texto que describa la imagen')
+        figcaption Nota: Adaptada de Diseño de un sistema de recirculación de gases en hornillas paneleras de evaporación abierta usando EES. Cristancho, A. (2012). 
 
 
+    p.mb-5 A continuación, se describen las características más representativas de la cámara de combustión.
+
+
+    ImagenInfografica.color-secundario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/T1/img-38.png', alt='Texto que describa la imagen')
+
+      .tarjeta.tarjeta-puntos-calientes.p-12(x="3%" y="98%" numero="1")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-md-5
+            img(src='@/assets/curso/temas/T1/img-39.svg', alt='')
+          .col-md-7
+            .titulo-principal.color-acento-contenido
+              .titulo-principal__numero
+                span 1
+              h5 Cenicero
+            p El cenicero es un compartimiento ubicado debajo de la parrilla y tiene como funciones:  almacenar las cenizas producidas al consumirse el combustible, canalizar y precalentar el aire necesario para la combustión.
+
+      .tarjeta.tarjeta-puntos-calientes.p-3(x="5%" y="75%" numero="2")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-md-5
+            img(src='@/assets/curso/temas/T1/img-40.svg', alt='')
+          .col-md-7
+            .titulo-principal.color-acento-contenido
+              .titulo-principal__numero
+                span 2
+              h5 Entrada de alimentación
+            p La puerta conocida como zona de alimentación es la ranura por la cual es introducido el combustible, se construye en fundición de hierro gris para soportar altas temperaturas sin deformarse.
+
+      .tarjeta.tarjeta-puntos-calientes.p-5(x="38%" y="96%" numero="3")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-md-6
+            img(src='@/assets/curso/temas/T1/img-41.svg', alt='')
+          .col-md-6
+            .titulo-principal.color-acento-contenido
+              .titulo-principal__numero
+                span 3
+              h5 Parrilla
+            p La parrilla es un entrecruzamiento de varillas metálicas que sirve de techo para el bagazo, además debe permitir la entrada del aire y el paso de las cenizas al cenicero. Se fabrica tradicionalmente en hierro gris, en diferentes tamaños y formas. 
+
+    TabsC.color-acento-contenido
+      .py-3.py-md-4(titulo="<b>Ducto de humo</b>")
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            p Conocido también con el nombre de conducto de gases, camino o buque, constituido por paredes y muros de soporte, piso, arcos y pailas. El ducto de humo guía los gases de la combustión y los lleva directamente hasta ponerlos en contacto con las pailas, allí se transfiere gran parte de la energía térmica directamente a los jugos. Varían de acuerdo a la forma y materiales con que se construyen, sin embargo, se han ido reformando partiendo de los más tradicionales, que se hacían por medio de una excavación directa en el sitio de construcción de la hornilla dirigiéndolo hacia las pailas que son soportadas por muros y arcos, hasta aquellos donde las paredes, pisos, arcos y muros se construyen en ladrillo refractario.
+        
+          .col-md-6
+            figure
+              .titulo-sexto.color-acento-contenido
+                p.mb-0 
+                  p.mb-1 <b>Figura 9.</b><i> Ducto de humo</i>
+              img(src='@/assets/curso/temas/T1/img-42.png', alt='Texto que describa la imagen')
+
+      .py-3.py-md-4(titulo="<b>Chimenea</b>")
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            p Las chimeneas son un sistema construido en ladrillo o lámina de hierro en forma de conducto, se encuentra ubicado al final de la hornilla y encajado directamente con el ducto de humos, por lo general tiene forma cilíndrica pero también lo podemos encontrar de forma trapezoidal o cónica. Las dimensiones siempre dependen de la forma y el tamaño de la hornilla. La chimenea genera el tiro que es la diferencia de presión en todo el conducto, esta garantiza el suministro del aire requerido durante la combustión del bagazo, también ayuda a transportar los gases a través del ducto, (Deantonio et al., 2020).
+        
+          .col-md-6
+            figure
+              .titulo-sexto.color-acento-contenido
+                p.mb-0 
+                  p.mb-1 <b>Figura 10.</b><i> Chimenea</i>
+              img(src='@/assets/curso/temas/T1/img-43.png', alt='Texto que describa la imagen')
+              figcaption Reproducida de Hornillas paneleras ecoeficientes tipo Cimpa. Agrosavia (s.f.). 
+
+    Separador
+
+    #t_1_4.titulo-segundo.color-acento-contenido
+      h2 1.4 Pailas y mantenimiento
+
+
+    .col-md-6.mx-auto.mb-5
+      figure
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 
+            p.mb-1 <b>Figura 11.</b><i> Tipos de paila</i>
+        img(src='@/assets/curso/temas/T1/img-44.png', alt='Texto que describa la imagen')
+
+    p.mb-5 A continuación, se presenta la información sobre las características, funciones y mantenimiento de las pailas.  
+
+
+
+    .row.justify-content-center(data-aos="fade-down").mb-5
+      .col-10.tamanos
+        .row.px-2.pt-2.h-100
+          .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
+            figure
+              img(src="@/assets/curso/temas/T1/img-45.png", alt="Texto que describa la imagen")
+            .text.p-lg-3.p-4
+              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
+                .h4.small-text.mt-sm-3.mt-md-0.texto-blanco Transferencia de calor
+                p.mt-3.small-text.texto-blanco  El calor producido por la quema del bagazo y el transporte de los gases logran llegar a las pailas y se transfiere el calor a los jugos. La fabricación generalmente se hace en cobre, aluminio o hierro, por procesos de fundición o deformado en caliente (Gordillo y García, 1992).
+
+      .col-10.tamanos
+        .row.px-2.pt-2.h-100
+          .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
+            figure
+              img(src="@/assets/curso/temas/T1/img-46.png", alt="Texto que describa la imagen")
+            .text.p-lg-3.p-4
+              .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
+                .h4.small-text.mt-1.mt-md-0.texto-blanco Características de las pailas 
+                p.mt-3.small-text.texto-blanco Las pailas varían de forma y tamaño de acuerdo con las regiones y con la capacidad de la hornilla, estas pueden ser semiesférica, semicilíndrica, trapezoidales, planas y planas aleteadas.
+      .col-10.tamanos
+        .row.px-2.pt-2.h-100
+          .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
+            figure
+              img(src="@/assets/curso/temas/T1/img-47.png", alt="Texto que describa la imagen")
+            .text.p-lg-3.p-4
+              .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
+                .h4.small-text.mt-1.mt-md-0.texto-blanco Mantenimiento 
+                p.mt-3.small-text.texto-blanco Los criterios a tener presentes para la selección de la geometría de las pailas paneleras son la facilidad de circulación de gases de combustión, la facilidad de construcción, el área total de la transferencia de calor, la generación de esfuerzos térmicos elevados y también de limpieza; este último, se ha convertido en un parámetro de gran importancia, ya que la geometría determina la forma en que el producto puede mantenerse en perfectas condiciones.
+              
+      .col-10.tamanos
+        .row.px-2.pt-2.h-100
+          .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
+            figure
+              img(src="@/assets/curso/temas/T1/img-48.png", alt="Texto que describa la imagen")
+            .text.p-lg-3.p-4
+              .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
+                .h4.small-text.mt-1.mt-md-0.texto-blanco Precaución 
+                p.mt-3.small-text.texto-blanco Se debe tener precaución con la capa de miel quemada que se forma en el exterior de la paila y con la capa de cenizas en su interior, porque dificultan la transferencia de calor, disminuyendo la eficiencia de la paila (Espinoza, 2017).
+          
+      Separador.mb-5
+
+    #t_1_5.titulo-segundo.color-acento-contenido
+      h2 1.5 Clarificación, evaporación y concentración de los jugos
+
+    
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-49.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La panela es un edulcorante más natural que el azúcar blanco, no requiere ser sometida a los procesos conocidos como refinado, centrifugado u otro proceso donde se requiera el uso de químicos; esta serie de eventos naturales han permitido que la panela desde sus inicios continúe siendo valorada como un producto natural que mantiene todos los nutrientes de la caña de azúcar. En el video que se presenta a continuación, se visibiliza cómo se da el proceso de clasificación, evaporación y concentración de los jugos.
+        
+
+    .col-12
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>
