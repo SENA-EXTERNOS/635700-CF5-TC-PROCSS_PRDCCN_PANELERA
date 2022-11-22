@@ -60,7 +60,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p El término “<b>beneficio</b>” incluye el conjunto de operaciones tecnológicas posteriores al corte de la caña que conducen a la producción de panela; se desarrollan en el siguiente orden: apronte, molienda, limpieza, clarificación y encalado, evaporación del agua y concentración de las mieles, punteo y batido, moldeo, enfriamiento, empaque y embalaje (García, 2020).
+            p El término “beneficio” incluye el conjunto de operaciones tecnológicas posteriores al corte de la caña que conducen a la producción de panela; se desarrollan en el siguiente orden: apronte, molienda, limpieza, clarificación y encalado, evaporación del agua y concentración de las mieles, punteo y batido, moldeo, enfriamiento, empaque y embalaje (García, 2020).
 
         
           .col-md-6
@@ -378,7 +378,7 @@
 
           .row(titulo="El horno")
             .col-md-10.mb-4.mb-md-0
-              p Es el resultado de dividir la frecuencia absoluta acumulada entre el total de las repeticiones en este caso 12152.
+              p El horno que se utiliza durante el proceso de elaboración panelera generalmente es conocido como hornilla panelera; se define como un subsistema panelero, dispositivo o equipo del trapiche de gran utilidad porque es aquí donde se elimina gran parte de las impurezas, pero también se evapora el agua de los jugos de la caña permitiendo concentrar la mayor parte de los sólidos solubles, como el azúcar, hasta el “punto de convertirse en panela”.  
           
           .row(titulo="Las hornillas")
             .col-md-10.mb-4.mb-md-0
@@ -559,6 +559,7 @@
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Pailas y mantenimiento
 
+    p.mb-5 Las pailas son recipientes metálicos conocidos también como fondos, tachos o evaporadores, son las vasijas donde se depositan los jugos y son usados para la evaporación del agua.
 
     .col-md-6.mx-auto.mb-5
       figure
