@@ -89,16 +89,10 @@
             p.mb-0 En conclusión, la extracción de los jugos es el paso de la caña a través del molino donde se exprime la caña, con esta operación se obtiene un jugo o guarapo crudo como producto principal y bagazo húmedo (verde) que se emplea como combustible para la hornilla, para determinar el porcentaje de extracción se debe pesar el bagazo (aunque algo del peso se pierde, pues es difícil contar el peso del bagacillo porque se desecha en el jugo), (Osorio, 2007b) (Romero et al., 2009).
 
 
-    .row.mt-5
-      .col-10.offset-1
-        .color-acento-contenido.p-1.mb-5
-          .tarjeta.color-tarjetas.p-3.mb-5
-            .row.justify-content-around.align-items-center
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    p.mb-4 Por ejemplo, suponiendo que se pesan 90 kg de caña, los cuales al momento de moler arrojan 40 kg de bagazo, el porcentaje de extracción se calcula
-                    p.mb-3 <b>Extracción=90 kg-39 kg 90 kg X 100= 57 %</b>
+    .col-md-9.mx-auto
+      .fad.p-4.p-4.mb-4(style="border-left: solid #81AF1D 5px")
+        p.mb-4 Por ejemplo, suponiendo que se pesan 90 kg de caña, los cuales al momento de moler arrojan 40 kg de bagazo, el porcentaje de extracción se calcula
+        p.mb-3 <b>Extracción=90 kg-39 kg 90 kg X 100= 57 %</b>
 
     Separador
 
@@ -490,43 +484,37 @@
     p.mb-5 A continuación, se describen las características más representativas de la cámara de combustión.
 
 
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfograficaB.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/T1/img-38.png', alt='Texto que describa la imagen')
 
-      .tarjeta.tarjeta-puntos-calientes.p-12(x="3%" y="98%" numero="1")
+      div(x="3%" y="98%" tooltip="tooltip de max 35 caracteres" numero="1")
         .row.justify-content-center.align-items-center.mb-5
-          .col-md-5
+          .col-md-4
             img(src='@/assets/curso/temas/T1/img-39.svg', alt='')
-          .col-md-7
+          .col-md-8
             .titulo-principal.color-acento-contenido
-              .titulo-principal__numero
-                span 1
-              h5 Cenicero
-            p El cenicero es un compartimiento ubicado debajo de la parrilla y tiene como funciones:  almacenar las cenizas producidas al consumirse el combustible, canalizar y precalentar el aire necesario para la combustión.
+              p El cenicero es un compartimiento ubicado debajo de la parrilla y tiene como funciones:  almacenar las cenizas producidas al consumirse el combustible, canalizar y precalentar el aire necesario para la combustión.
 
-      .tarjeta.tarjeta-puntos-calientes.p-3(x="5%" y="75%" numero="2")
+      div(x="5%" y="75%" numero="2")
         .row.justify-content-center.align-items-center.mb-5
-          .col-md-5
+          .col-md-4
             img(src='@/assets/curso/temas/T1/img-40.svg', alt='')
-          .col-md-7
+          .col-md-8
             .titulo-principal.color-acento-contenido
-              .titulo-principal__numero
-                span 2
-              h5 Entrada de alimentación
-            p La puerta conocida como zona de alimentación es la ranura por la cual es introducido el combustible, se construye en fundición de hierro gris para soportar altas temperaturas sin deformarse.
+              p La puerta conocida como zona de alimentación es la ranura por la cual es introducido el combustible, se construye en fundición de hierro gris para soportar altas temperaturas sin deformarse.
 
-      .tarjeta.tarjeta-puntos-calientes.p-5(x="38%" y="96%" numero="3")
+      div(x="38%" y="96%" numero="3")
         .row.justify-content-center.align-items-center.mb-5
-          .col-md-6
+          .col-md-4
             img(src='@/assets/curso/temas/T1/img-41.svg', alt='')
-          .col-md-6
+          .col-md-8
             .titulo-principal.color-acento-contenido
-              .titulo-principal__numero
-                span 3
-              h5 Parrilla
-            p La parrilla es un entrecruzamiento de varillas metálicas que sirve de techo para el bagazo, además debe permitir la entrada del aire y el paso de las cenizas al cenicero. Se fabrica tradicionalmente en hierro gris, en diferentes tamaños y formas. 
+              p La parrilla es un entrecruzamiento de varillas metálicas que sirve de techo para el bagazo, además debe permitir la entrada del aire y el paso de las cenizas al cenicero. Se fabrica tradicionalmente en hierro gris, en diferentes tamaños y formas. 
+
+
+    
 
     TabsC.color-acento-contenido
       .py-3.py-md-4(titulo="<b>Ducto de humo</b>")
