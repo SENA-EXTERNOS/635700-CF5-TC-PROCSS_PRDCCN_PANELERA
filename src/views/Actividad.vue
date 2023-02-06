@@ -1,17 +1,16 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5    
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/falso-verdadero.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Preparación de la materia prima e insumos
-        p.mb-4 La presente actividad que tiene como propósito validar la comprensión de los conceptos abordados. Para ello, debe relacionar cada uno de los términos con la definición correspondiente.
+        p.mb-4 Apreciado aprendiz, la actividad de aprendizaje que se presenta a continuación, le permitirá identificar el nivel de comprensión de los saberes desarrollados en este componente formativo. Lo invitamos a leer con atención cada uno de los enunciados y marcar con una X si es falso o verdadero según el caso:  
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

@@ -13,8 +13,7 @@
       .col-md-9
         .cajon-b.color-primario.abajo-derecha.p-1.mb-5
           p Desde tiempos remotos la demanda del consumo de la panela en Colombia ha sido elevada. El crecimiento poblacional, el uso del producto para realizar preparaciones diferentes a las tradicionales, junto con el aumento de las exportaciones, ofrece nuevos horizontes a la producción panelera. De acuerdo con lo anterior, se requiere mayor capacidad de producción para sostener los niveles que ha alcanzado su utilización a nivel nacional e internacional.
-          p.mb-0 A continuación, se presentan algunos de los requerimientos que deben ser considerados en procura de aumentar la capacidad de producción de panela en el país.
-      
+          p.mb-0 A continuación, se presentan algunos de los requerimientos que deben ser considerados en procura de aumentar la capacidad de producción de panela en el país:
 
     .tarjeta.color-slyder.p-4.mb-5
       SlyderA(tipo="b")
@@ -24,7 +23,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-2.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -32,7 +31,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-3.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -40,7 +39,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-4.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -48,7 +47,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-5.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -56,7 +55,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-6.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -65,7 +64,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-7.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-7.png', alt='')
 
     Separador
 
@@ -115,7 +114,7 @@
         .row.justify-content-between.align-items-center(titulo="Paso 1")
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-11.png', alt='')
 
 
           .col-md-6.mb-4.mb-md-0
@@ -124,7 +123,7 @@
         .row.justify-content-between.align-items-center(titulo="Paso 2")
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-12.png', alt='')
 
 
           .col-md-6.mb-4.mb-md-0
@@ -137,7 +136,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 1.</b><i> Molinos</i>
-              img(src='@/assets/curso/temas/T1/img-13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-13.png', alt='')
               figcaption A. Molino vertical de tres mazas. B. Molino horizontal de tres mazas. Reproducida de Innovaciones en el trapiche panelero: la producción de panela granulada. Morales, Osorio & Rodríguez (2017). Agroproductividad, 10(11), 42.
 
 
@@ -150,7 +149,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 2.</b><i> Características del rendimiento del molino</i>
-              img(src='@/assets/curso/temas/T1/img-14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-14.png', alt='')
               figcaption Adaptada de (Sandoval S, s. f.)
 
 
@@ -160,7 +159,7 @@
         .row.justify-content-between.align-items-center(titulo="Paso 5")
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-15.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-15.png', alt='')
 
 
           .col-md-6.mb-4.mb-md-0
@@ -170,14 +169,14 @@
         .row.justify-content-between.align-items-center(titulo="Paso 6")
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-16.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-16.png', alt='')
 
 
           .col-md-6.mb-4.mb-md-0
             p La extracción se refiere a la cantidad de jugo que se extrae de la caña de azúcar. La ecuación de la extracción es:
 
             figure
-              img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-17.png', alt='')
       
     ol.lista-ol--cuadro.mb-3
       li
@@ -213,25 +212,10 @@
     .col-md-6.mx-auto.mb-5
       figure
         .titulo-sexto.color-acento-contenido
-          p.mb-0 
-            p.mb-1 <b>Figura 3.</b><i> Cómo mejorar la extracción de un molino de tres mazas</i>
-        img(src='@/assets/curso/temas/T1/img-19.png', alt='Texto que describa la imagen')
+          p.mb-0 <b>Figura 1</b><br><i> Cómo mejorar la extracción de un molino de tres mazas</i>
+        img(src='@/assets/curso/temas/T1/img-19.png', alt='')
         figcaption Nota: Reproducida de Modelación matemática de la flotación de la maza superior de los molinos de caña de azúcar. Cabello et al. (2012). 
 
-
-    .col-md-10.mx-auto.mb-5
-      .tarjeta.color-tarjetas-segunda.p-3.mb-5
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/T1/img-20.svg")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Para profundizar en el estudio de los molinos de tres mazas y aprender más sobre sus características y funcionamiento, lo invitamos a observar atentamente el video:
-              .col-auto.mb-3.mb-sm-0
-                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=sYV_5L0AKoI" target="_blank")
-                  span  Enlace
-                  i.fas.fa-link
 
     ol.lista-ol--cuadro.mb-3
       li
@@ -256,9 +240,8 @@
     .col-md-6.mx-auto.mb-5
       figure
         .titulo-sexto.color-acento-contenido
-          p.mb-0 
-            p.mb-1 <b>Figura 4.</b><i> Factores a considerar en la determinación de la capacidad del molino</i>
-        img(src='@/assets/curso/temas/T1/img-22.png', alt='Texto que describa la imagen')
+          p.mb-0 <b>Figura 2</b><br><i> Factores a considerar en la determinación de la capacidad del molino</i>
+        img(src='@/assets/curso/temas/T1/img-22.png', alt='')
 
 
     ol.lista-ol--cuadro.mb-3
@@ -275,29 +258,25 @@
         p.mb-3 En las empresas agroindustriales, como los trapiches, pueden surgir dificultades que se convierten en grandes conflictos en el momento de la producción y, por tanto, pérdidas económicas. La mayoría de los problemas se relaciona con la falta de mantenimiento de los equipos, pues su continuo uso genera desgastes en las piezas de manera individual o agrupamiento de ellas; de ahí, que se deba hacer el mantenimiento preventivo -el arreglo o el cambio de alguna pieza- evitando así retrasos en la producción de la panela s y, por ende, disminución en los ingresos económicos para los productores, sus familias y las personas vinculadas con el proceso.
 
         .cajon.color-secundario.p-4.mb-4.color-cajon
-          p La falta de limpieza de cada equipo no es ajena a los eventos de disminución en la producción y baja en la calidad del producto. El cambio de color o sabor, la presencia de desechos en las panelas o la contaminación cruzada que afecta los jugos, puede acarrear la pérdida del producto. Problemática asociada más a la actividad artesanal y ligada principalmente con la higiene y limpieza del personal manipulador y salubridad.
-
-
+          p.mb-0 La falta de limpieza de cada equipo, no es ajena a los eventos de disminución en la producción y baja en la calidad del producto. El cambio de color o sabor, la presencia de desechos en las panelas o la contaminación cruzada que afecta los jugos, puede acarrear la pérdida del producto. Problemática asociada más a la actividad artesanal y ligada principalmente con la higiene y limpieza del personal manipulador y de salubridad. Veamos:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/T1/img-24.svg' alt='AvatarTop')
-        p.text-center Los trapiches deben disponer de manera oportuna con equipos, recipientes y utensilios para garantizar las buenas condiciones sanitarias en la elaboración de la panela, incluyendo los molinos.
-
+        p.text-center Los trapiches deben disponer de manera oportuna con equipos, recipientes y utensilios, para garantizar las buenas condiciones sanitarias en la elaboración de la panela, incluyendo los molinos.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/T1/img-25.svg' alt='AvatarTop')
-        p.text-center El mantenimiento de los equipos, recipientes y utensilios debe hacerse permanentemente y de forma adecuada para preservar las óptimas condiciones de la producción. 
+        p.text-center El mantenimiento de los equipos, recipientes y utensilios, debe hacerse permanentemente y de forma adecuada, para preservar las óptimas condiciones de la producción. 
 
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/T1/img-26.svg' alt='AvatarTop')
-        p.text-center El mantenimiento permite reducir las reparaciones que en ocasiones se vuelven cotosas, además de la pérdida de tiempo, el desgaste prematuro de las piezas, los accidentes y la pérdida de caña cortada.
-
+        p.text-center El mantenimiento permite reducir las reparaciones que, en ocasiones, se vuelven costosas, además de la pérdida de tiempo, el desgaste prematuro de las piezas, los accidentes y la pérdida de caña cortada.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -310,50 +289,44 @@
             img(src='@/assets/curso/temas/T1/img-28.svg' alt='AvatarTop')
         p.text-center La distribución de la planta debe tener un flujo secuencial del proceso de elaboración con el propósito de prevenir la contaminación cruzada, la fermentación de los residuos en los jugos, los malos olores y evitar la presencia de insectos.
   
-    p.mb-5 La imagen que se presenta a continuación, muestra los elementos que se deben tener en cuenta en una buena práctica de mantenimiento. 
+    p.mb-5 La imagen que se presenta a continuación, muestra los elementos que se deben tener en cuenta en una buena práctica de mantenimiento: 
 
-  
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 
-        p.mb-1 <b>Figura 5.</b><i> Una buena práctica de mantenimiento</i>
-        
+       
     .row.justify-content-between.align-items-center
-      .col-md-6.mx-auto.mb-5
-        h2 Mantenimiento
+      .col-auto
+        h3 Mantenimiento
+      .col-10
+        .tarjeta.p-3.fca 
+          p.p-2.border1.mb-0 Durante el mantenimiento se debe acceder a todas las partes del molino y realizar la limpieza de manera fácil, al igual que la desinfección y el mantenimiento y génico de los equipos y en las áreas adyacentes
 
-    .col-md-10.mx-auto.mb-5
-      .tarjeta.p-3.fca 
-        p.p-2.border1.mb-0 Durante el mantenimiento se debe acceder a todas las partes del molino y realizar la limpieza de manera fácil, al igual que la desinfección y el mantenimiento y génico de los equipos y en las áreas adyacentes
-
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.color-secundario.my-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/T1/img-29.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/T1/img-29.png', alt='')
 
       .tarjeta.tarjeta-primera.p-3(x="6.9%" y="89.8%" numero="")
-        p.p-2 Conservar la máquina limpia
+        p.p-2.mb-0 Conservar la máquina limpia
 
       .tarjeta.tarjeta-segunda.p-3(x="23.9%" y="89.8%" numero="")
-        p.p-2 Comprobar el equipo y verificar las piezas
+        p.p-2.mb-0 Comprobar el equipo y verificar las piezas
 
       .tarjeta.tarjeta-tercera.p-3(x="41.5%" y="89.8%" numero="")
-        p.p-2 Verificar las uniones de la banda
+        p.p-2.mb-0 Verificar las uniones de la banda
 
       .tarjeta.tarjeta-primera.p-3(x="58.5%" y="89.8%" numero="")
-        p.p-2 Tensar adecuadamente las bandas
+        p.p-2.mb-0 Tensar adecuadamente las bandas
       
       .tarjeta.tarjeta-segunda.p-3(x="75.8%" y="89.8%" numero="")
-        p.p-2 Ajustar las mazas adecuadamente
+        p.p-2.mb-0 Ajustar las mazas adecuadamente
 
       .tarjeta.tarjeta-cuarta.p-3(x="93.3%" y="89.8%" numero="")
-        p.p-2 Al finalizar la molienda, lavar las piezas del molino
+        p.p-2.mb-0 Al finalizar la molienda, lavar las piezas del molino
 
 
     Separador
 
     #t_1_3.titulo-segundo.color-acento-contenido
-      h2 1.3 Hornillas 
-
+      h2 1.3 Hornillas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-3(data-aos="fade-right")
@@ -382,7 +355,7 @@
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-31.png', alt='')
 
-    p.mb-5 Las imágenes que se presentan a continuación, representan elementos relevantes que explican algunas de las características de las hornillas.
+    p.mb-5 Las imágenes que se presentan a continuación, representan elementos relevantes que explican algunas de las características de las hornillas:
 
 
     .tarjeta.color-slyder.p-4.mb-5
@@ -393,11 +366,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Figura 6.</b><i> Diagrama de Sankey en hornillas panelera </i>
-              img(src='@/assets/curso/temas/T1/img-32.png', alt='Texto que describa la imagen')
-              figcaption Nota: Adaptada de Curso básico descriptivo para el diseño, construcción y operación de hornillas paneleras. García, H. (2020). 
+              img(src='@/assets/curso/temas/T1/img-32.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -405,10 +374,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Figura 7.</b><i> Partes principales de una hornilla</i>
-              img(src='@/assets/curso/temas/T1/img-33.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-33.png', alt='')
 
     ol.lista-ol--cuadro.mb-3
       li
@@ -423,7 +389,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Las hornillas se componen de la cámara de combustión, el ducto de humos, las pailas y la chimenea. El proceso inicia con la molienda necesaria para la extracción del jugo que suma aproximadamente entre el 50 % y el 60 %, luego da lugar a la eliminación de sus impurezas, la caña verde (bagazo) se lleva a la cámara de combustión para que produzca los gases necesarios para el calentamiento y evaporación del jugo en cada una de las diferentes etapas: clarificación, evaporación y concentración (Cristancho, 2012).
 
-    p.mb-5 A continuación, se desarrollan algunas de las etapas del proceso de producción panelera, según Cristancho, (2012). 
+    p.mb-5 A continuación, se desarrollan algunas de las etapas del proceso de producción panelera:
 
     .row.mb-5.mt-5
       .col-md-8
@@ -450,20 +416,6 @@
           figure
             img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-35.png', alt='')
 
-    .col-md-10.mx-auto.mb-5
-      .tarjeta.color-tarjetas-segunda.p-3.mb-5
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/T1/img-36.svg")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Para profundizar en el estudio de las hornillas y aprender más sobre sus características y funcionamiento, lo invitamos a observar atentamente el video Hornillas paneleras eficientes, (AEA Región Andina, 2014).
-              .col-auto.mb-3.mb-sm-0
-                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=01jkgR9jotM" target="_blank")
-                  span  Enlace
-                  i.fas.fa-link
-
     ol.lista-ol--cuadro.mb-4
       li
         .lista-ol--cuadro__vineta.listas-primera 
@@ -475,40 +427,39 @@
     .col-md-6.mx-auto.mb-5
       figure
         .titulo-sexto.color-acento-contenido
-          p.mb-0 
-            p.mb-1 <b>Figura 8.</b><i> Tipos de cámaras de combustión</i>
-        img(src='@/assets/curso/temas/T1/img-37.png', alt='Texto que describa la imagen')
+          p.mb-0 <b>Figura 8</b><br><i> Tipos de cámaras de combustión</i>
+        img(src='@/assets/curso/temas/T1/img-37.png', alt='')
         figcaption Nota: Adaptada de Diseño de un sistema de recirculación de gases en hornillas paneleras de evaporación abierta usando EES. Cristancho, A. (2012). 
 
 
-    p.mb-5 A continuación, se describen las características más representativas de la cámara de combustión.
+    p.mb-5 Observemos cómo se describen las características más representativas de la cámara de combustión:
 
 
     ImagenInfograficaB.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/T1/img-38.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/T1/img-38.png', alt='')
 
-      div(x="3%" y="98%" tooltip="tooltip de max 35 caracteres" numero="1")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-4
-            img(src='@/assets/curso/temas/T1/img-39.svg', alt='')
+      div(x="3%" y="98%" tooltip="Ver mas" numero="1")
+        .row.justify-content-center.align-items-center
+          .col-md-5
+            img.img-a.img-t.mb-5(src='@/assets/curso/temas/T1/img-39.svg', alt='')
           .col-md-8
             .titulo-principal.color-acento-contenido
               p El cenicero es un compartimiento ubicado debajo de la parrilla y tiene como funciones:  almacenar las cenizas producidas al consumirse el combustible, canalizar y precalentar el aire necesario para la combustión.
 
-      div(x="5%" y="75%" numero="2")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-4
-            img(src='@/assets/curso/temas/T1/img-40.svg', alt='')
+      div(x="5%" y="75%" tooltip="Ver mas" numero="2")
+        .row.justify-content-center.align-items-center
+          .col-md-5
+            img.img-a.img-t.mb-5(src='@/assets/curso/temas/T1/img-40.svg', alt='')
           .col-md-8
             .titulo-principal.color-acento-contenido
               p La puerta conocida como zona de alimentación es la ranura por la cual es introducido el combustible, se construye en fundición de hierro gris para soportar altas temperaturas sin deformarse.
 
-      div(x="38%" y="96%" numero="3")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-4
-            img(src='@/assets/curso/temas/T1/img-41.svg', alt='')
+      div(x="38%" y="96%" tooltip="Ver mas" numero="3")
+        .row.justify-content-center.align-items-center
+          .col-md-5
+            img.img-a.img-t.mb-5(src='@/assets/curso/temas/T1/img-41.svg', alt='')
           .col-md-8
             .titulo-principal.color-acento-contenido
               p La parrilla es un entrecruzamiento de varillas metálicas que sirve de techo para el bagazo, además debe permitir la entrada del aire y el paso de las cenizas al cenicero. Se fabrica tradicionalmente en hierro gris, en diferentes tamaños y formas. 
@@ -525,9 +476,8 @@
           .col-md-6
             figure
               .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Figura 9.</b><i> Ducto de humo</i>
-              img(src='@/assets/curso/temas/T1/img-42.png', alt='Texto que describa la imagen')
+                p.mb-0 <b>Figura 3</b><br><i> Ducto de humo</i>
+              img(src='@/assets/curso/temas/T1/img-42.png', alt='')
 
       .py-3.py-md-4(titulo="<b>Chimenea</b>")
         .row.justify-content-center.align-items-center
@@ -536,11 +486,9 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Figura 10.</b><i> Chimenea</i>
-              img(src='@/assets/curso/temas/T1/img-43.png', alt='Texto que describa la imagen')
-              figcaption Reproducida de Hornillas paneleras ecoeficientes tipo Cimpa. Agrosavia (s.f.). 
+              img(src='@/assets/curso/temas/T1/img-43.png', alt='')
+              figcaption Reproducida de Hornillas paneleras ecoeficientes tipo Cimpa. Agrosavia (s.f.). https://www.agrosavia.co/media/arwd1anz/ximena-l%C3%B3pez-gonzalez.png 
+                 
 
     Separador
 
@@ -552,11 +500,10 @@
     .col-md-6.mx-auto.mb-5
       figure
         .titulo-sexto.color-acento-contenido
-          p.mb-0 
-            p.mb-1 <b>Figura 11.</b><i> Tipos de paila</i>
-        img(src='@/assets/curso/temas/T1/img-44.png', alt='Texto que describa la imagen')
+          p.mb-0 <b>Figura 4</b><br><i> Tipos de paila</i>
+        img(src='@/assets/curso/temas/T1/img-44.png', alt='')
 
-    p.mb-5 A continuación, se presenta la información sobre las características, funciones y mantenimiento de las pailas.  
+    p.mb-5 Teniendo en cuenta lo anterior, veamos la información sobre las características, funciones y mantenimiento de las pailas:
 
 
 
@@ -565,7 +512,7 @@
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T1/img-45.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T1/img-45.png", alt="")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                 .h4.small-text.mt-sm-3.mt-md-0.texto-blanco Transferencia de calor
@@ -575,7 +522,7 @@
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T1/img-46.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T1/img-46.png", alt="")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0.texto-blanco Características de las pailas 
@@ -584,7 +531,7 @@
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T1/img-47.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T1/img-47.png", alt="")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0.texto-blanco Mantenimiento 
@@ -594,7 +541,7 @@
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T1/img-48.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T1/img-48.png", alt="")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0.texto-blanco Precaución 
@@ -611,7 +558,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-49.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La panela es un edulcorante más natural que el azúcar blanco, no requiere ser sometida a los procesos conocidos como refinado, centrifugado u otro proceso donde se requiera el uso de químicos; esta serie de eventos naturales han permitido que la panela desde sus inicios continúe siendo valorada como un producto natural que mantiene todos los nutrientes de la caña de azúcar. En el video que se presenta a continuación, se visibiliza cómo se da el proceso de clasificación, evaporación y concentración de los jugos.
+        p.mb-0 La panela es un edulcorante más natural que el azúcar blanco, no requiere ser sometida a los procesos conocidos como refinado, centrifugado u otro proceso donde se requiera el uso de químicos; esta serie de eventos naturales han permitido que la panela, desde sus inicios, continúe siendo valorada como un producto natural que mantiene todos los nutrientes de la caña de azúcar. En el video que se presenta a continuación, se visibiliza cómo se da el proceso de clasificación, evaporación y concentración de los jugos:
         
 
     .col-12

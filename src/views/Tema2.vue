@@ -24,9 +24,7 @@
 
     p.mb-5 El proceso real de producción panelera se lleva a cabo al iniciar el paso de decantación del jugo extraído de la caña, con el propósito de librarlo de las impurezas, separando la tierra y el bagacillo del jugo, paso seguido, las mieles continúan el proceso de calor y se adicionan floculantes y se regula el pH del jugo.
 
-    p.mb-5 A continuación, se presentan los elementos que se deben tener presentes en el proceso de concentración de jugo de la caña.
-
-
+    p.mb-5 A continuación, se presentan los elementos que se deben tener presentes en el proceso de concentración de jugo de la caña:
 
     .tarjeta.color-slyder.p-4.mb-5
       SlyderA(tipo="b")
@@ -36,7 +34,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T2/img-2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T2/img-2.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -44,7 +42,7 @@
             p.mb-4 El balance de masa se realiza mediante el uso de la siguiente igualdad:
             .col-md-6.mx-auto.mb-5
               figure
-                img(src='@/assets/curso/temas/T2/img-4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T2/img-4.png', alt='')
             p.mb-4 <b>Donde:</b>
             ul.lista-ul
               li
@@ -64,7 +62,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T2/img-3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T2/img-3.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -72,7 +70,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T2/img-5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T2/img-5.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -80,7 +78,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T2/img-6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T2/img-6.png', alt='')
 
 
     ol.lista-ol--cuadro.mb-3
@@ -107,7 +105,7 @@
         .titulo-sexto.color-acento-contenido
           p.mb-0 
             p.mb-1 <b>Tabla 1.</b><i> Cantidad de jugo requerida para producir un (kg) de panela, de acuerdo con la concentración del jugo y de la panela</i>
-        img(src='@/assets/curso/temas/T2/img-8.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T2/img-8.png', alt='')
 
 
 
@@ -117,8 +115,7 @@
       .col-md-9
         p.mb-3 <b>Requerimientos de energía para la evaporación del agua de los jugos</b>
         p.mb-5 Para llevar a cabo la eficiencia y mejora en el proceso de producción de la panela, es importante comprender que el aumento de la capacidad de las hornillas y la eficiencia en transferencia de calor -para separar el agua de los jugos de la caña por medio del proceso conocido como evaporación- se debe llevar a cabo de manera eficaz.
-        p.mb-5 A continuación, se presentan los requerimientos de energía para la evaporación del agua de los jugos. 
-
+        p.mb-5 Es de esta manera, que se presentan los requerimientos de energía para la evaporación del agua de los jugos:
     
 
     .row.mb-5.mt-5
@@ -137,7 +134,7 @@
               p.mb-3 Durante la evaporación se presenta un cambio de fase del agua, la cual pasa de estado líquido a estado de vapor. Este valor normalmente se identifica como λ (letra griega lambda). Así mismo, al ir evaporando el agua se va concentrando la solución del jugo y por tanto el valor del calor latente de vaporización va disminuyendo, porque cada vez hay menos agua en los jugos. La mayor parte de la energía consumida durante la evaporación del agua de los se puede calcular usando la siguiente ecuación:
               .col-md-6.mx-auto.mb-5
                 figure
-                  img(src='@/assets/curso/temas/T2/img-11.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/T2/img-11.png', alt='')
               p.mb-4 <b>Donde:</b>
               ul.lista-ul
                 li
@@ -169,7 +166,7 @@
 
     .col-md-10.mx-auto.mb-5
       .cajon.color-acento-botones.p-4.mb-4.color-cajon-segundo
-        p <b>¡Muy bien!</b> Ha finalizado el estudio de este componente formativo a través del cual ha aprendido sobre la preparación de la materia prima e insumos requeridos en la producción panelera. Ahora lo invitamos a revisar la síntesis para afianzar los saberes desarrollados y sus relaciones, realizar la actividad de aprendizaje para verificar el nivel de comprensión de lo aprendido, consultar el material complementario que sirve de refuerzo y profundización y a estudiar el glosario.   
+        p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros. 
 
 
 

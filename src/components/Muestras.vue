@@ -477,56 +477,56 @@ div
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
 
@@ -536,7 +536,7 @@ div
     h2 Imagen
 
   figure.mb-5
-    img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+    img(src='@/assets/template/img-placeholder.svg', alt='')
     figcaption Leyenda de la imagen
 
   .row.justify-content-between
@@ -545,7 +545,7 @@ div
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       .imagen-titulo--der.color-secundario
         figure
-          img(src='@/assets/template/img-placeholder-1-1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder-1-1.svg', alt='')
 
         .imagen-titulo__titulo
           h4.m-0 Titulo de imagen
@@ -555,7 +555,7 @@ div
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       .imagen-titulo--izq.color-acento-botones
         figure
-          img(src='@/assets/template/img-placeholder-1-1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder-1-1.svg', alt='')
 
         .imagen-titulo__titulo
           h4.m-0 Titulo de imagen
@@ -570,7 +570,7 @@ div
   ImagenInfografica.color-secundario.mb-5
     template(v-slot:imagen)
       figure
-        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/template/img-placeholder.svg', alt='')
         figcaption Leyenda de la imagen
 
     .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
@@ -592,7 +592,7 @@ div
   ImagenInfograficaB.color-primario.mb-5
     template(v-slot:imagen)
       figure
-        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/template/img-placeholder.svg', alt='')
         figcaption Leyenda de la imagen
 
     div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
@@ -755,7 +755,7 @@ div
               .h5.mb-0 The graphic designer
               .h6.mb-0 Lorem ipsum dolor sit amet
           .col-4
-            img(src='@/assets/template/img-placeholder-1-1.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder-1-1.svg', alt='')
 
   h3.titulo-tercero Cajón texto color F
   //- .bloque-texto-f debe ir acompañado de una de una de estas clases => 
@@ -769,7 +769,7 @@ div
       h3.mb-0 The graphic designer
     .bloque-texto-f__avatar
       .bloque-texto-f__avatar__img
-        img(src='@/assets/template/img-placeholder-1-1.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/template/img-placeholder-1-1.svg', alt='')
 
   h3.titulo-tercero Cajón texto color G
   .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -813,11 +813,11 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
       div
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen`
       .row
         .col-md-6.mb-4.mb-md-0
@@ -825,11 +825,11 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
       div
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
   .tarjeta.tarjeta--azul.p-4.mb-5
@@ -841,22 +841,22 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
       div
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
       .row
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
       div
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
   h3 Slider B
@@ -879,12 +879,12 @@ div
     
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
     div
       figure
-        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/template/img-placeholder.svg', alt='')
         figcaption Leyenda de la imagen
 
     .row
@@ -893,12 +893,12 @@ div
     
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
     div
       figure
-        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/template/img-placeholder.svg', alt='')
         figcaption Leyenda de la imagen
 
   h3 Slyder F
@@ -993,15 +993,15 @@ div
     .carousel-inner
       .carousel-item.active
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
       .carousel-item
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
       .carousel-item
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
     button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
       span.carousel-control-prev-icon(aria-hidden='true')
@@ -1050,12 +1050,12 @@ div
     
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
     div(titulo="Titulo item 2")
       figure
-        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/template/img-placeholder.svg', alt='')
         figcaption Leyenda de la imagen
 
   h3 Acordion A tipo B
@@ -1066,12 +1066,12 @@ div
     
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
     div(titulo="Titulo item 2")
       figure
-        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/template/img-placeholder.svg', alt='')
         figcaption Leyenda de la imagen
 
   Separador
@@ -1129,7 +1129,7 @@ div
       .row
         .col-xl-6.mb-4
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
         .col-xl-6
           p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
@@ -1189,13 +1189,13 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
     .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
       .row
         .col-md-6.mb-4.mb-md-0
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
         .col-md-6
           h4 Celebrate your failures 2
@@ -1209,14 +1209,14 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
     .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
       .row
         .col-md-6.mb-4.mb-md-0
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
         .col-md-6
           h4 Celebrate your failures 4
@@ -1231,14 +1231,14 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
     
     .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
       .row
         .col-md-6.mb-4.mb-md-0
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
         .col-md-6
           h4 Celebrate your failures 6
@@ -1256,13 +1256,13 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
     .py-3.py-md-4(titulo="Don’t lie to yourself")
       .row
         .col-md-6.mb-4.mb-md-0
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
         .col-md-6
           h4 Celebrate your failures 2
@@ -1276,14 +1276,14 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
     .py-3.py-md-4(titulo="The splendor of the mystery")
       .row
         .col-md-6.mb-4.mb-md-0
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
         .col-md-6
           h4 Celebrate your failures 4
@@ -1298,14 +1298,14 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
     
     .py-3.py-md-4(titulo="The splendor of the mystery")
       .row
         .col-md-6.mb-4.mb-md-0
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
         .col-md-6
           h4 Celebrate your failures 6
@@ -1362,7 +1362,7 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
 
@@ -1372,7 +1372,7 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
 
@@ -1382,12 +1382,12 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
       div(titulo="1889")
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
       .row(titulo="1899")
@@ -1396,22 +1396,22 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
       div(titulo="1901")
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
       div(titulo="1930")
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
       div(titulo="1987")
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
   h3 Linea Tiempo D
@@ -1420,13 +1420,13 @@ div
       //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       LineaTiempoD.color-secundario
-        p.text-small(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+        p(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
         
-        p.text-small(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+        p(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
         
-        p.text-small(numero="3" titulo="Praesent luctus") Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+        p(numero="3" titulo="Praesent luctus") Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
         
-        p.text-small(numero="4" titulo="Praesent luctus") quam cursus in. Donec feugiat volutpat metus at pulvinar.
+        p(numero="4" titulo="Praesent luctus") quam cursus in. Donec feugiat volutpat metus at pulvinar.
 
     .col-md-6
       //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
@@ -1434,29 +1434,29 @@ div
       LineaTiempoD.color-primario
         .row(numero="1" titulo="Praesent luctus")
           .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
         
           .col-md-6
             figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/template/img-placeholder.svg', alt='')
               figcaption Leyenda de la imagen
 
         .row(numero="2" titulo="Praesent luctus")
           .col-md-6
             figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/template/img-placeholder.svg', alt='')
               figcaption Leyenda de la imagen
           .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
         
 
         .row(numero="3" titulo="Praesent luctus")
           .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
         
           .col-md-6
             figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/template/img-placeholder.svg', alt='')
               figcaption Leyenda de la imagen
 
   //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
@@ -1464,29 +1464,29 @@ div
   LineaTiempoD.color-acento-contenido.mb-5
     .row(numero="1" titulo="Praesent luctus")
       .col-md-6.mb-4.mb-md-0
-        p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
     .row(numero="2" titulo="Praesent luctus")
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
       .col-md-6.mb-4.mb-md-0
-        p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     
 
     .row(numero="3" titulo="Praesent luctus")
       .col-md-6.mb-4.mb-md-0
-        p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
   h3 Linea Tiempo E
@@ -1499,12 +1499,12 @@ div
         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
       .col-lg-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
     div(titulo="2014 - asodasdk als alskd asdlkj sdfkj" subtitulo="Title, Company")
       figure
-        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/template/img-placeholder.svg', alt='')
         figcaption Leyenda de la imagen
 
     .row(titulo="2014 - Present" subtitulo="Title, Company")
@@ -1512,7 +1512,7 @@ div
         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
       .col-lg-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
   Separador
@@ -1530,13 +1530,13 @@ div
         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
     .row
       .col-md-6.mb-4.mb-md-0
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la Imagen
       .col-md-6
         h3 Nullam vulputate mauris eros, ut.
@@ -1550,7 +1550,7 @@ div
     
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
     .row
@@ -1560,7 +1560,7 @@ div
     
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
   h3 Pasos A tipo l
@@ -1595,7 +1595,7 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
 
@@ -1605,7 +1605,7 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
 
@@ -1615,12 +1615,12 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
       div(titulo="Etiam eu mauris sit amet")
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
       .row(titulo="Praesent luctus")
@@ -1629,22 +1629,22 @@ div
       
         .col-md-6
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/img-placeholder.svg', alt='')
             figcaption Leyenda de la imagen
 
       div(titulo="arcu porta, vel finibus eros posuere")
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
       div(titulo="Praesent")
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
       div(titulo="Sed vehicula velit vel arcu porta,")
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
   Separador
@@ -1714,7 +1714,7 @@ div
         .row.justify-content-between.align-items-center
           .col.mb-3.mb-sm-0
             h3.mb-1 Título del recurso
-            p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
+            p Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
           .col-sm-auto
             a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
               span Descargar
@@ -1731,7 +1731,7 @@ div
         .row.justify-content-between.align-items-center
           .col.mb-3.mb-sm-0
             h3.mb-1 Título del recurso
-            p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
+            p Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
           .col-sm-auto
             a.boton.color-acento-contenido(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
               span Descargar
@@ -1814,10 +1814,10 @@ div
         .row.justify-content-center.mb-3
           .col-7
             figure
-              img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/ej-03.svg', alt='')
 
         h3.text-center Intuition important
-        p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+        p Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
 
     .col-sm-6.col-lg-3.mb-4.mb-lg-0
       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -1827,10 +1827,10 @@ div
         .row.justify-content-center.mb-3
           .col-7
             figure
-              img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/ej-03.svg', alt='')
 
         h3.text-center Intuition important
-        p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+        p Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
 
     .col-sm-6.col-lg-3.mb-4.mb-sm-0
       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -1840,10 +1840,10 @@ div
         .row.justify-content-center.mb-3
           .col-7
             figure
-              img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/ej-03.svg', alt='')
 
         h3.text-center Intuition important
-        p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+        p Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
 
     .col-sm-6.col-lg-3
       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -1853,10 +1853,10 @@ div
         .row.justify-content-center.mb-3
           .col-7
             figure
-              img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/ej-03.svg', alt='')
 
         h3.text-center Intuition important
-        p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+        p Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
 
 
   h3 Tarjetas conectadas
@@ -1868,7 +1868,7 @@ div
       .row.justify-content-center.mb-4
         .col-6
           figure
-            img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/componentes/ej-05.svg', alt='')
         
       h2.text-center Celebrate your<br>failures
       p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
@@ -1880,7 +1880,7 @@ div
       .row.justify-content-center.mb-4
         .col-6
           figure
-            img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/componentes/ej-05.svg', alt='')
         
       h2.text-center Sterility leads to<br>susceptibility
       p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
@@ -1892,7 +1892,7 @@ div
       .row.justify-content-center.mb-4
         .col-6
           figure
-            img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/componentes/ej-05.svg', alt='')
         
       h2.text-center Sterility leads to<br>susceptibility
       p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
@@ -2136,24 +2136,24 @@ div
     .col-lg-4.mb-4
       .tarjeta.tarjeta-avatar-slide.color-acento-contenido.p-4.h-100
         .tarjeta-avatar-slide__img.mb-4
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='Texto que describa la imagen' )
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen' )
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='' )
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='' )
         p 
           b Dirigir a los miembros del equipo 
           | para que las actividades se cumplan según lo establecido en el plan.
     .col-lg-4.mb-4
       .tarjeta.tarjeta-avatar-slide.color-acento-botones.p-4.h-100
         .tarjeta-avatar-slide__img.mb-4
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='Texto que describa la imagen' )
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen' )
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='' )
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='' )
         p 
           b Dirigir a los miembros del equipo 
           | para que las actividades se cumplan según lo establecido en el plan.
     .col-lg-4.mb-4
       .tarjeta.tarjeta-avatar-slide.color-primario.p-4.h-100
         .tarjeta-avatar-slide__img.mb-4
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='Texto que describa la imagen' )
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen' )
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='' )
+          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='' )
         p 
           b Dirigir a los miembros del equipo 
           | para que las actividades se cumplan según lo establecido en el plan.
@@ -2181,7 +2181,7 @@ div
     
       .col-md-6
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/template/img-placeholder.svg', alt='')
           figcaption Leyenda de la imagen
 
   Separador
