@@ -262,25 +262,14 @@ export default {
     },
     {
       referencia:
-        'Hernández, S., Cely, M. & Torres, Z. (2018) Capacidades y tendencias tecnológicas en el proceso de producción de panela artesanal. Un estudio de vigilancia tecnológica. <i>Revista científica profundidad construyendo futuro, 15</i>(15), p. 49¬-63.',
-      link: 'https://doi.org/10.22463/24221783.3310',
-    },
-    {
-      referencia:
-        'Mendieta, O. & Escalante, H. (2013). Análisis experimental de la evaporación del jugo de caña de azúcar en película sobre una placa plana. <i>Ciencia y Tecnología Agropecuaria,14</i>(2), p. 113–127.',
-      link:
-        'http://hdl.handle.net/20.500.12324/33966,http://revista.corpoica.org.co/index.php/revista/article/view/403,10.21930/rcta.vol14_num2_art:403',
-    },
-    {
-      referencia:
         'Moreno, J., Castrillón, N. & Zuluaga, C. (2017). Procesamiento en paralelo y distribuido en dos SGBDS: un caso de estudio. <i>Revista Tecnura, 21</i>(52), p. 111–129.',
-      link: 'https://doi.org/10.14483/udistrital.jour.tecnura.2017.2.a09 ',
+      link:
+        'https://revistas.udistrital.edu.co/index.php/Tecnura/article/view/10787',
     },
     {
       referencia:
         'Morales, V., Osorio, A. & Rodríguez, J. (2017). Innovaciones en el trapiche panelero: la producción de panela granulada. <i>Agroproductividad, 10</i>(11), p. 41– 47.',
-      link:
-        'https://link.gale.com/apps/doc/A530914345/IFME?u=anon~3b9335c6&sid=googleScholar&xid=9e5d814c',
+      link: 'https://core.ac.uk/download/pdf/249319955.pdf ',
     },
     {
       referencia:
@@ -296,13 +285,7 @@ export default {
     {
       referencia:
         'Prada, L. (2002). <i>Mejoramiento en la calidad de miel y panela</i>.',
-      link: 'http://hdl.handle.net/20.500.12324/17691  ',
-    },
-    {
-      referencia:
-        'Prada, L., García, H. & Chaves, A. (2015). Efecto de las variables de evaporación: presión y flujo calórico en la calidad de la panela. <i>Ciencia y Tecnología Agropecuaria, 16</i>(1), p. 7–23.',
-      link:
-        'http://hdl.handle.net/20.500.12324/33945,http://revista.corpoica.org.co/index.php/revista/article/view/376,10.21930/rcta.vol16_num1_art:376',
+      link: 'http://hdl.handle.net/20.500.12324/17691',
     },
     {
       referencia:
