@@ -255,7 +255,7 @@
       .col-md-5(data-aos="fade-right")
         img(src='@/assets/curso/temas/T1/img-23.png', alt='mujer con un laptop y un robot')
       .col-md-7
-        p.mb-3 En las empresas agroindustriales, como los trapiches, pueden surgir dificultades que se convierten en grandes conflictos en el momento de la producción y, por tanto, pérdidas económicas. La mayoría de los problemas se relaciona con la falta de mantenimiento de los equipos, pues su continuo uso genera desgastes en las piezas de manera individual o agrupamiento de ellas; de ahí, que se deba hacer el mantenimiento preventivo -el arreglo o el cambio de alguna pieza- evitando así retrasos en la producción de la panela s y, por ende, disminución en los ingresos económicos para los productores, sus familias y las personas vinculadas con el proceso.
+        p.mb-3 En las empresas agroindustriales, como los trapiches, pueden surgir dificultades que se convierten en grandes conflictos en el momento de la producción y, por tanto, pérdidas económicas. La mayoría de los problemas se relaciona con la falta de mantenimiento de los equipos, pues su continuo uso genera desgastes en las piezas de manera individual o agrupamiento de ellas; de ahí, que se deba hacer el mantenimiento preventivo -el arreglo o el cambio de alguna pieza- evitando así retrasos en la producción de la panela y, por ende, disminución en los ingresos económicos para los productores, sus familias y las personas vinculadas con el proceso.
 
         .cajon.color-secundario.p-4.mb-4.color-cajon
           p.mb-0 La falta de limpieza de cada equipo, no es ajena a los eventos de disminución en la producción y baja en la calidad del producto. El cambio de color o sabor, la presencia de desechos en las panelas o la contaminación cruzada que afecta los jugos, puede acarrear la pérdida del producto. Problemática asociada más a la actividad artesanal y ligada principalmente con la higiene y limpieza del personal manipulador y de salubridad. Veamos:
@@ -297,7 +297,7 @@
         h3 Mantenimiento
       .col-10
         .tarjeta.p-3.fca 
-          p.p-2.border1.mb-0 Durante el mantenimiento se debe acceder a todas las partes del molino y realizar la limpieza de manera fácil, al igual que la desinfección y el mantenimiento y génico de los equipos y en las áreas adyacentes
+          p.p-2.border1.mb-0 Durante el mantenimiento se debe acceder a todas las partes del molino y realizar la limpieza de manera fácil, al igual que la desinfección y el mantenimiento y génico de los equipos y en las áreas adyacentes.
 
     ImagenInfografica.color-secundario.my-5
       template(v-slot:imagen)
@@ -305,22 +305,22 @@
           img(src='@/assets/curso/temas/T1/img-29.png', alt='')
 
       .tarjeta.tarjeta-primera.p-3(x="6.9%" y="89.8%" numero="")
-        p.p-2.mb-0 Conservar la máquina limpia
+        p.p-2.mb-0 Conservar la máquina limpia.
 
       .tarjeta.tarjeta-segunda.p-3(x="23.9%" y="89.8%" numero="")
-        p.p-2.mb-0 Comprobar el equipo y verificar las piezas
+        p.p-2.mb-0 Comprobar el equipo y verificar las piezas.
 
       .tarjeta.tarjeta-tercera.p-3(x="41.5%" y="89.8%" numero="")
-        p.p-2.mb-0 Verificar las uniones de la banda
+        p.p-2.mb-0 Verificar las uniones de la banda.
 
       .tarjeta.tarjeta-primera.p-3(x="58.5%" y="89.8%" numero="")
-        p.p-2.mb-0 Tensar adecuadamente las bandas
+        p.p-2.mb-0 Tensar adecuadamente las bandas.
       
       .tarjeta.tarjeta-segunda.p-3(x="75.8%" y="89.8%" numero="")
-        p.p-2.mb-0 Ajustar las mazas adecuadamente
+        p.p-2.mb-0 Ajustar las mazas adecuadamente.
 
       .tarjeta.tarjeta-cuarta.p-3(x="93.3%" y="89.8%" numero="")
-        p.p-2.mb-0 Al finalizar la molienda, lavar las piezas del molino
+        p.p-2.mb-0 Al finalizar la molienda, lavar las piezas del molino.
 
 
     Separador
@@ -424,12 +424,12 @@
 
     p.mb-5 La hornilla tiene un espacio donde se realiza la combustión y su forma debe cambiar de acuerdo al tipo de bagazo o combustible a utilizar, está ubicada en la parte anterior de la hornilla, además contiene el cenicero, la puerta de alimentación y la parrilla. Su construcción debe hacerse en un material como el ladrillo refractario que pueda soportar cambios bruscos y elevados de temperatura en rangos variables.
 
-    .col-md-6.mx-auto.mb-5
+    .col-md-10.mx-auto.mb-5
       figure
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 <b>Figura 8</b><br><i> Tipos de cámaras de combustión</i>
-        img(src='@/assets/curso/temas/T1/img-37.png', alt='')
-        figcaption Nota: Adaptada de Diseño de un sistema de recirculación de gases en hornillas paneleras de evaporación abierta usando EES. Cristancho, A. (2012). 
+        img(src='@/assets/curso/temas/T1/img-37.svg', alt='')
+        figcaption.mt-4 Nota: Adaptada de Diseño de un sistema de recirculación de gases en hornillas paneleras de evaporación abierta usando EES. Cristancho, A. (2012). 
 
 
     p.mb-5 Observemos cómo se describen las características más representativas de la cámara de combustión:
