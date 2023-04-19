@@ -291,7 +291,7 @@ export default {
       referencia:
         'Quezada, W. (2007). <i>Guía técnica de agroindustria panelera</i>.',
       link:
-        'http://repositorio.utn.edu.ec/bitstream/123456789/934/1/GuíaTécnicadeAgroindustriaPanelera.pdf ',
+        'http://repositorio.utn.edu.ec/bitstream/123456789/934/1/Gu%C3%ADa%20T%C3%A9cnica%20de%20Agroindustria%20Panelera.pdf',
     },
     {
       referencia:
