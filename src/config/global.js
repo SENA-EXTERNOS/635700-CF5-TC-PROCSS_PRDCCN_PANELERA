@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'En Colombia, muchas familias campesinas se benefician del proceso de producción panelera, desde la transformación del jugo de caña, pasando por la limpieza y evaporación, hasta el empaque y la distribución de la panela. El conocimiento generacional se refleja en la calidad del producto y, por ello, el proceso debe estar basado en las buenas prácticas de manufactura.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -270,12 +270,6 @@ export default {
       referencia:
         'Morales, V., Osorio, A. & Rodríguez, J. (2017). Innovaciones en el trapiche panelero: la producción de panela granulada. <i>Agroproductividad, 10</i>(11), p. 41– 47.',
       link: 'https://core.ac.uk/download/pdf/249319955.pdf ',
-    },
-    {
-      referencia:
-        'Osorio, G. (2007).<i> Manual técnico buenas prácticas agrícolas (BBA) y buenas prácticas de manufactura (BPM) en la producción de caña y panela.</i>',
-      link:
-        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/18313/43120_50541.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:

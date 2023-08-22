@@ -43,7 +43,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p La panela es un producto apetecido y muy conocido por la población, la constante demanda a nivel nacional e internacional exige la mejora y el desarrollo continuo del proceso productivo para lograr la excelencia del producto y cumplir con las metas durante la cadena de producción. La tecnificación del proceso permite satisfacer la demanda del producto. Tal es el caso de contar con un sistema de prelimpieza de los jugos y el aprovechamiento de los desechos como el bagazo en las hornillas, usado como combustible para generar el calor necesario para la evaporación del agua, minimizando el uso de leña, carbón o caucho de llantas que perjudican y afectan el medioambiente (Gottret & Rodríguez , 2018).
+            p La panela es un producto apetecido y muy conocido por la población, la constante demanda a nivel nacional e internacional exige la mejora y el desarrollo continuo del proceso productivo para lograr la excelencia del producto y cumplir con las metas durante la cadena de producción. La tecnificación del proceso permite satisfacer la demanda del producto. Tal es el caso de contar con un sistema de prelimpieza de los jugos y el aprovechamiento de los desechos como el bagazo en las hornillas, usado como combustible para generar el calor necesario para la evaporación del agua, minimizando el uso de leña, carbón o caucho de llantas que perjudican y afectan el medioambiente (Gottret & Rodríguez, 2018).
         
           .col-md-6
             figure
@@ -212,7 +212,7 @@
     .col-md-6.mx-auto.mb-5
       figure
         .titulo-sexto.color-acento-contenido
-          p.mb-0 <b>Figura 1</b><br><i> Cómo mejorar la extracción de un molino de tres mazas</i>
+          p.mb-0 <b>Figura 3</b><br><i> Cómo mejorar la extracción de un molino de tres mazas</i>
         img(src='@/assets/curso/temas/T1/img-19.png', alt='')
         figcaption Nota: Reproducida de Modelación matemática de la flotación de la maza superior de los molinos de caña de azúcar. Cabello et al. (2012). 
 
@@ -240,7 +240,7 @@
     .col-md-6.mx-auto.mb-5
       figure
         .titulo-sexto.color-acento-contenido
-          p.mb-0 <b>Figura 2</b><br><i> Factores a considerar en la determinación de la capacidad del molino</i>
+          p.mb-0 <b>Figura 4</b><br><i> Factores a considerar en la determinación de la capacidad del molino</i>
         img(src='@/assets/curso/temas/T1/img-22.png', alt='')
 
 
@@ -261,29 +261,29 @@
           p.mb-0 La falta de limpieza de cada equipo, no es ajena a los eventos de disminución en la producción y baja en la calidad del producto. El cambio de color o sabor, la presencia de desechos en las panelas o la contaminación cruzada que afecta los jugos, puede acarrear la pérdida del producto. Problemática asociada más a la actividad artesanal y ligada principalmente con la higiene y limpieza del personal manipulador y de salubridad. Veamos:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/T1/img-24.svg' alt='AvatarTop')
         p.text-center Los trapiches deben disponer de manera oportuna con equipos, recipientes y utensilios, para garantizar las buenas condiciones sanitarias en la elaboración de la panela, incluyendo los molinos.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/T1/img-25.svg' alt='AvatarTop')
         p.text-center El mantenimiento de los equipos, recipientes y utensilios, debe hacerse permanentemente y de forma adecuada, para preservar las óptimas condiciones de la producción. 
 
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/T1/img-26.svg' alt='AvatarTop')
         p.text-center El mantenimiento permite reducir las reparaciones que, en ocasiones, se vuelven costosas, además de la pérdida de tiempo, el desgaste prematuro de las piezas, los accidentes y la pérdida de caña cortada.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/T1/img-27.svg' alt='AvatarTop')
         p.text-center Durante el mantenimiento se debe acceder a todas las partes del molino y realizar la limpieza de manera adecuada, al igual que la desinfección y el mantenimiento higiénico de los equipos y de las áreas adyacentes.
 
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/T1/img-28.svg' alt='AvatarTop')
@@ -427,7 +427,7 @@
     .col-md-10.mx-auto.mb-5
       figure
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 <b>Figura 8</b><br><i> Tipos de cámaras de combustión</i>
+          p.mb-0 <b>Figura 5</b><br><i> Tipos de cámaras de combustión</i>
         img(src='@/assets/curso/temas/T1/img-37.svg', alt='')
         figcaption.mt-4 Nota: Adaptada de Diseño de un sistema de recirculación de gases en hornillas paneleras de evaporación abierta usando EES. Cristancho, A. (2012). 
 
@@ -476,7 +476,7 @@
           .col-md-6
             figure
               .titulo-sexto.color-acento-contenido
-                p.mb-0 <b>Figura 3</b><br><i> Ducto de humo</i>
+                p.mb-0 <b>Figura 6</b><br><i> Ducto de humo</i>
               img(src='@/assets/curso/temas/T1/img-42.png', alt='')
 
       .py-3.py-md-4(titulo="<b>Chimenea</b>")
@@ -500,52 +500,39 @@
     .col-md-6.mx-auto.mb-5
       figure
         .titulo-sexto.color-acento-contenido
-          p.mb-0 <b>Figura 4</b><br><i> Tipos de paila</i>
+          p.mb-0 <b>Figura 7</b><br><i> Tipos de paila</i>
         img(src='@/assets/curso/temas/T1/img-44.png', alt='')
 
     p.mb-5 Teniendo en cuenta lo anterior, veamos la información sobre las características, funciones y mantenimiento de las pailas:
+    
+    .row.justify-content-center.mb-3          
+      .col-lg-5.my-3
+        .bg1.h-100
+          img.img-a(src="@/assets/curso/temas/T1/img-45.png", alt="")
+          .p-4
+            h4.texto-blanco Transferencia de calor
+            p.texto-blanco.mb-0  El calor producido por la quema del bagazo y el transporte de los gases logran llegar a las pailas y se transfiere el calor a los jugos. La fabricación generalmente se hace en cobre, aluminio o hierro, por procesos de fundición o deformado en caliente (Gordillo y García, 1992).
 
+      .col-lg-5.my-3       
+        .bg1.h-100
+          img.img-a(src="@/assets/curso/temas/T1/img-46.png", alt="")
+          .p-4
+            h4.texto-blanco Características de las pailas 
+            p.texto-blanco.mb-0 Las pailas varían de forma y tamaño de acuerdo con las regiones y con la capacidad de la hornilla, estas pueden ser semiesférica, semicilíndrica, trapezoidales, planas y planas aleteadas.           
+      .col-lg-5.my-3
+        .bg1.h-100
+          img.img-a(src="@/assets/curso/temas/T1/img-47.png", alt="")
+          .p-4
+            h4.texto-blanco Mantenimiento
+            p.texto-blanco.mb-0 Los criterios a tener presentes para la selección de la geometría de las pailas paneleras son la facilidad de circulación de gases de combustión, la facilidad de construcción, el área total de la transferencia de calor, la generación de esfuerzos térmicos elevados y también de limpieza; este último, se ha convertido en un parámetro de gran importancia, ya que la geometría determina la forma en que el producto puede mantenerse en perfectas condiciones. 
 
+      .col-lg-5.my-3        
+        .bg1.h-100
+          img.img-a(src="@/assets/curso/temas/T1/img-48.png", alt="")
+          .p-4
+            h4.texto-blanco Precaución
+            p.texto-blanco.mb-0 Se debe tener precaución con la capa de miel quemada que se forma en el exterior de la paila y con la capa de cenizas en su interior, porque dificultan la transferencia de calor, disminuyendo la eficiencia de la paila (Espinoza, 2017).              
 
-    .row.justify-content-center(data-aos="fade-down").mb-5
-      .col-10.tamanos
-        .row.px-2.pt-2.h-100
-          .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
-            figure
-              img(src="@/assets/curso/temas/T1/img-45.png", alt="")
-            .text.p-lg-3.p-4
-              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                .h4.small-text.mt-sm-3.mt-md-0.texto-blanco Transferencia de calor
-                p.mt-3.small-text.texto-blanco  El calor producido por la quema del bagazo y el transporte de los gases logran llegar a las pailas y se transfiere el calor a los jugos. La fabricación generalmente se hace en cobre, aluminio o hierro, por procesos de fundición o deformado en caliente (Gordillo y García, 1992).
-
-      .col-10.tamanos
-        .row.px-2.pt-2.h-100
-          .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
-            figure
-              img(src="@/assets/curso/temas/T1/img-46.png", alt="")
-            .text.p-lg-3.p-4
-              .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
-                .h4.small-text.mt-1.mt-md-0.texto-blanco Características de las pailas 
-                p.mt-3.small-text.texto-blanco Las pailas varían de forma y tamaño de acuerdo con las regiones y con la capacidad de la hornilla, estas pueden ser semiesférica, semicilíndrica, trapezoidales, planas y planas aleteadas.
-      .col-10.tamanos
-        .row.px-2.pt-2.h-100
-          .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
-            figure
-              img(src="@/assets/curso/temas/T1/img-47.png", alt="")
-            .text.p-lg-3.p-4
-              .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
-                .h4.small-text.mt-1.mt-md-0.texto-blanco Mantenimiento 
-                p.mt-3.small-text.texto-blanco Los criterios a tener presentes para la selección de la geometría de las pailas paneleras son la facilidad de circulación de gases de combustión, la facilidad de construcción, el área total de la transferencia de calor, la generación de esfuerzos térmicos elevados y también de limpieza; este último, se ha convertido en un parámetro de gran importancia, ya que la geometría determina la forma en que el producto puede mantenerse en perfectas condiciones.
-              
-      .col-10.tamanos
-        .row.px-2.pt-2.h-100
-          .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
-            figure
-              img(src="@/assets/curso/temas/T1/img-48.png", alt="")
-            .text.p-lg-3.p-4
-              .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
-                .h4.small-text.mt-1.mt-md-0.texto-blanco Precaución 
-                p.mt-3.small-text.texto-blanco Se debe tener precaución con la capa de miel quemada que se forma en el exterior de la paila y con la capa de cenizas en su interior, porque dificultan la transferencia de calor, disminuyendo la eficiencia de la paila (Espinoza, 2017).
           
       Separador.mb-5
 
