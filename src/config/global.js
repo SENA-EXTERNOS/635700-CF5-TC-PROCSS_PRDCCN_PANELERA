@@ -67,7 +67,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Clarificación, evaporación y concentración de jugos',
+            titulo: 'Clarificación, evaporación y concentración de los jugos',
             hash: 't_1_5',
           },
         ],
@@ -220,7 +220,7 @@ export default {
       referencia:
         'Agricultura & Ganadería. (s. f.). <i>Aumentando la eficiencia energética en los trapiches paneleros del país</i>. Periódico virtual especializado en noticias del sector agropecuario.',
       link:
-        'https://www.agriculturayganaderia.com/website/aumentando-la-eficiencia-energetica-en-los-trapiches-paneleros-del-pais/',
+        'https://www.agronet.gov.co/Noticias/Paginas/Aumentando-la-eficiencia-energ%C3%A9tica-en-los-trapiches-paneleros-del-pa%C3%ADs.aspx',
     },
     {
       referencia:

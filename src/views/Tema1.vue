@@ -19,7 +19,7 @@
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Para alcanzar la cantidad requerida y satisfacer la necesidad del mercado panelero, se ha implementado el uso de equipos en las unidades productoras, denominadas trapiches, estos han evolucionado con el tiempo,  aumentado notablemente la cantidad de la producción, con las exigencias del proceso en cada una de las etapas; por ejemplo, donde se requiere el uso de los molinos se diseñaron y adaptaron nuevos trituradores para que el  proceso de la molienda sea más efectivo, pueda albergar mayor cantidad de caña de azúcar y aumente la cantidad del jugo extraído, todo esto en búsqueda de la efectividad. 
+            p Para alcanzar la cantidad requerida y satisfacer la necesidad del mercado panelero, se ha implementado el uso de equipos en las unidades productoras, denominadas trapiches. Estos han evolucionado con el tiempo, aumentando notablemente la cantidad de la producción y la exigencia en los procesos de cada una de las etapas; por ejemplo, en los lugares donde se requiere el uso de los molinos, se diseñaron y adaptaron nuevos trituradores para que el proceso de la molienda sea más efectivo, y pueda albergar mayor cantidad de caña de azúcar para que aumente la cantidad del jugo extraído, todo esto en búsqueda de la efectividad.
         
           .col-md-6
             figure
@@ -27,7 +27,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Para los hornos se puede obtener la energía calórica a partir de la transformación del bagazo de la caña de azúcar, producto de desecho de la extracción del zumo; el calor es transferido a las pailas como método efectivo para la evaporación del agua.
+            p En los hornos, la energía calórica se puede obtener a partir de la transformación del bagazo de la caña de azúcar, el cual es desechado durante la extracción del zumo, y el cual permite que el calor se transfiera a las pailas, convirtiéndose en un método efectivo para la evaporación del agua.
         
           .col-md-6
             figure
@@ -85,13 +85,13 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-9.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 En conclusión, la extracción de los jugos es el paso de la caña a través del molino donde se exprime la caña, con esta operación se obtiene un jugo o guarapo crudo como producto principal y bagazo húmedo (verde) que se emplea como combustible para la hornilla, para determinar el porcentaje de extracción se debe pesar el bagazo (aunque algo del peso se pierde, pues es difícil contar el peso del bagacillo porque se desecha en el jugo), (Osorio, 2007b) (Romero et al., 2009).
+            p.mb-0 En conclusión, la extracción de jugo consiste en pasar la caña a través del molino para exprimirla y obtener un jugo o guarapo crudo como producto principal, además de bagazo húmedo (verde) que se emplea como combustible para la hornilla. Para determinar el porcentaje de extracción se debe pesar el bagazo, pero se debe tener en cuenta que, debido a que el bagacillo se desecha en el jugo, se pierde algo de su peso y este es difícil de contar.
 
 
     .col-md-9.mx-auto
       .fad.p-4.p-4.mb-4(style="border-left: solid #81AF1D 5px")
         p.mb-4 Por ejemplo, suponiendo que se pesan 90 kg de caña, los cuales al momento de moler arrojan 40 kg de bagazo, el porcentaje de extracción se calcula
-        p.mb-3 <b>Extracción=90 kg-39 kg 90 kg X 100= 57 %</b>
+        p.mb-3 <b>Extracción= ((90 kg - 39 kg)/ 90 kg) X 100= 57 %</b>
 
     Separador
 
@@ -150,7 +150,7 @@
                 p.mb-0 
                   p.mb-1 <b>Figura 2.</b><i> Características del rendimiento del molino</i>
               img(src='@/assets/curso/temas/T1/img-14.png', alt='')
-              figcaption Adaptada de (Sandoval S, s. f.)
+              figcaption Adaptada de Sandoval (s. f.)
 
 
           .col-md-6.mb-4.mb-md-0
@@ -258,7 +258,7 @@
         p.mb-3 En las empresas agroindustriales, como los trapiches, pueden surgir dificultades que se convierten en grandes conflictos en el momento de la producción y, por tanto, pérdidas económicas. La mayoría de los problemas se relaciona con la falta de mantenimiento de los equipos, pues su continuo uso genera desgastes en las piezas de manera individual o agrupamiento de ellas; de ahí, que se deba hacer el mantenimiento preventivo -el arreglo o el cambio de alguna pieza- evitando así retrasos en la producción de la panela y, por ende, disminución en los ingresos económicos para los productores, sus familias y las personas vinculadas con el proceso.
 
         .cajon.color-secundario.p-4.mb-4.color-cajon
-          p.mb-0 La falta de limpieza de cada equipo, no es ajena a los eventos de disminución en la producción y baja en la calidad del producto. El cambio de color o sabor, la presencia de desechos en las panelas o la contaminación cruzada que afecta los jugos, puede acarrear la pérdida del producto. Problemática asociada más a la actividad artesanal y ligada principalmente con la higiene y limpieza del personal manipulador y de salubridad. Veamos:
+          p.mb-0 La falta de limpieza de cada equipo, no es ajena a los eventos de disminución en la producción y baja calidad del producto. El cambio de color o sabor, la presencia de desechos en las panelas o la contaminación cruzada que afecta los jugos, puede acarrear la pérdida del producto, problemática que está más asociada a la actividad artesanal y ligada principalmente con la higiene y limpieza del personal manipulador y de salubridad. Veamos:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-acento-botones.p-4.h-100
@@ -297,7 +297,7 @@
         h3 Mantenimiento
       .col-10
         .tarjeta.p-3.fca 
-          p.p-2.border1.mb-0 Durante el mantenimiento se debe acceder a todas las partes del molino y realizar la limpieza de manera fácil, al igual que la desinfección y el mantenimiento y génico de los equipos y en las áreas adyacentes.
+          p.p-2.border1.mb-0 Durante el mantenimiento se debe acceder a todas las partes del molino y realizar la limpieza de manera fácil, al igual que la desinfección y el Mantenimiento higiénico de los equipos y en las áreas adyacentes.
 
     ImagenInfografica.color-secundario.my-5
       template(v-slot:imagen)
@@ -366,7 +366,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-32.png', alt='')
+              img(src='@/assets/curso/temas/T1/img-32-.png', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -428,19 +428,19 @@
       figure
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 <b>Figura 5</b><br><i> Tipos de cámaras de combustión</i>
-        img(src='@/assets/curso/temas/T1/img-37.svg', alt='')
+        img(src='@/assets/curso/temas/T1/img-37-.svg', alt='')
         figcaption.mt-4 Nota: Adaptada de Diseño de un sistema de recirculación de gases en hornillas paneleras de evaporación abierta usando EES. Cristancho, A. (2012). 
 
 
     p.mb-5 Observemos cómo se describen las características más representativas de la cámara de combustión:
 
 
-    ImagenInfograficaB.color-acento-contenido.mb-5
+    ImagenInfografica.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/T1/img-38.png', alt='')
 
-      div(x="3%" y="98%" tooltip="Ver mas" numero="1")
+      .tarjeta.color-primario.p-3.fnd-1(x="3%" y="98%" tooltip="Ver mas" numero="1")
         .row.justify-content-center.align-items-center
           .col-md-5
             img.img-a.img-t.mb-5(src='@/assets/curso/temas/T1/img-39.svg', alt='')
@@ -448,7 +448,8 @@
             .titulo-principal.color-acento-contenido
               p El cenicero es un compartimiento ubicado debajo de la parrilla y tiene como funciones:  almacenar las cenizas producidas al consumirse el combustible, canalizar y precalentar el aire necesario para la combustión.
 
-      div(x="5%" y="75%" tooltip="Ver mas" numero="2")
+
+      .tarjeta.color-secundario.p-3.fnd-1(x="5%" y="75%" tooltip="Ver mas" numero="2")
         .row.justify-content-center.align-items-center
           .col-md-5
             img.img-a.img-t.mb-5(src='@/assets/curso/temas/T1/img-40.svg', alt='')
@@ -456,14 +457,13 @@
             .titulo-principal.color-acento-contenido
               p La puerta conocida como zona de alimentación es la ranura por la cual es introducido el combustible, se construye en fundición de hierro gris para soportar altas temperaturas sin deformarse.
 
-      div(x="38%" y="96%" tooltip="Ver mas" numero="3")
+      .tarjeta.color-primario.p-3.fnd-1(x="38%" y="96%" tooltip="Ver mas" numero="3")
         .row.justify-content-center.align-items-center
           .col-md-5
             img.img-a.img-t.mb-5(src='@/assets/curso/temas/T1/img-41.svg', alt='')
           .col-md-8
             .titulo-principal.color-acento-contenido
               p La parrilla es un entrecruzamiento de varillas metálicas que sirve de techo para el bagazo, además debe permitir la entrada del aire y el paso de las cenizas al cenicero. Se fabrica tradicionalmente en hierro gris, en diferentes tamaños y formas. 
-
 
     
 
@@ -523,7 +523,7 @@
         .bg1.h-100
           img.img-a(src="@/assets/curso/temas/T1/img-47.png", alt="")
           .p-4
-            h4.texto-blanco Mantenimiento
+
             p.texto-blanco.mb-0 Los criterios a tener presentes para la selección de la geometría de las pailas paneleras son la facilidad de circulación de gases de combustión, la facilidad de construcción, el área total de la transferencia de calor, la generación de esfuerzos térmicos elevados y también de limpieza; este último, se ha convertido en un parámetro de gran importancia, ya que la geometría determina la forma en que el producto puede mantenerse en perfectas condiciones. 
 
       .col-lg-5.my-3        

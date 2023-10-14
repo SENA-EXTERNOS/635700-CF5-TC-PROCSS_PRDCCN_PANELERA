@@ -22,7 +22,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Proceso de concentración de jugo de caña
 
-    p.mb-5 El proceso real de producción panelera se lleva a cabo al iniciar el paso de decantación del jugo extraído de la caña, con el propósito de librarlo de las impurezas, separando la tierra y el bagacillo del jugo, paso seguido, las mieles continúan el proceso de calor y se adicionan floculantes y se regula el pH del jugo.
+    p.mb-5 El proceso real de producción panelera se lleva a cabo al iniciar el paso de decantación del jugo extraído de la caña, con el propósito de liberarlo de las impurezas, separando la tierra y el bagacillo del jugo, paso seguido, las mieles continúan el proceso de calor y se adicionan floculantes y se regula el pH del jugo.
 
     p.mb-5 A continuación, se presentan los elementos que se deben tener presentes en el proceso de concentración de jugo de la caña:
 
@@ -30,7 +30,7 @@
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Próximo al estado de ebullición, muchas de las partículas coloidales dispersas en el jugo se coagulan, estas sustancian llevan por nombre “cachaza”; si estas no son separadas del jugo se dañan las características de la panela y por ello se hace necesario removerlas del jugo, liberándolo de las sustancias indeseadas. Separar la cachaza del jugo debe hacerse de manera cuidadosa, y logra hacerse por métodos físicos; el proceso de calentamiento continúa sobre el jugo clarificado para evaporar aproximadamente el 80 % del agua y así concentrar los azúcares hasta convertirlo en miel (Prada et al., 2015). Cuando esta alcanza entre 92 y 96 °Brix, se retira de la hornilla y se bate. En el proceso de evaporación del jugo de caña permite consumir alrededor del 80 % de la energía suministrada por la hornilla (Ruiz et al., 2019).
+            p Próximo al estado de ebullición, muchas de las partículas coloidales dispersas en el jugo se coagulan, estas sustancian llevan por nombre “cachaza”; si estas no son separadas del jugo se dañan las características de la panela y por ello se hace necesario removerlas del jugo, liberándolo de las sustancias indeseadas. Separar la cachaza del jugo debe hacerse de manera cuidadosa, y logra hacerse por métodos físicos; el proceso de calentamiento continúa sobre el jugo clarificado para evaporar aproximadamente el 80 % del agua y así concentrar los azúcares hasta convertirlo en miel (Prada et al., 2015). Cuando esta alcanza entre 92 y 96 °Brix, se retira de la hornilla y se bate. En el proceso de evaporación del jugo de caña puede consumir alrededor del 80 % de la energía suministrada por la hornilla (Ruiz et al., 2019).
         
           .col-md-6
             figure
@@ -66,7 +66,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Cuando se está produciendo panela se llega al punto miel y se inicia la etapa de concentración, aquí sigue la separación del agua por el método de evaporación, en este punto se logra alcanzar la concentración mayor de sólidos solubles óptimos para una buena panela, normalmente se alcanza entre 92 °B y 94 °B, para panela en bloque o 96 °B, para panela granulada. En algunas regiones al alcanzar las mieles las temperaturas que van entre 106 °C y 108 °C le es agregada bajas concentraciones de lechada de cal con la finalidad de afinar el grano, además se adiciona el agente antiadherente para evitar que las mieles se adhieran a las paredes de la paila punteadora disminuyendo la caramelización y el quemado. Es aconsejable el uso de manteca vegetal o aceite de cocina, para lo anterior se recomienda usar dos cucharadas soperas por cada 30 kg de panela a obtener (Mendieta & Escalante, 2013).
+            p Cuando se está produciendo panela se llega al punto miel y se inicia la etapa de concentración, aquí sigue la separación del agua por el método de evaporación, en este punto se logra alcanzar la concentración mayor de sólidos solubles óptimos para una buena panela, normalmente se alcanza entre 92 °B y 94 °B, para panela en bloque o 96 °B, para panela granulada. En algunas regiones, cuando las mieles alcanzan las temperaturas que van entre 106 °C y 108 °C se les agrega bajas concentraciones de lechada de cal con la finalidad de afinar el grano, además se adiciona el agente antiadherente para evitar que las mieles se adhieran a las paredes de la paila punteadora disminuyendo la caramelización y el quemado. Es aconsejable el uso de manteca vegetal o aceite de cocina, para lo anterior se recomienda usar dos cucharadas soperas por cada 30 kg de panela a obtener (Mendieta & Escalante, 2013).
         
           .col-md-6
             figure
@@ -105,7 +105,7 @@
         .titulo-sexto.color-acento-contenido
           p.mb-0 
             p.mb-1 <b>Tabla 1.</b><i> Cantidad de jugo requerida para producir un (kg) de panela, de acuerdo con la concentración del jugo y de la panela</i>
-        img(src='@/assets/curso/temas/T2/img-8.png', alt='')
+        img(src='@/assets/curso/temas/T2/img-8.svg', alt='')
 
 
 
@@ -121,7 +121,7 @@
     .row.mb-5.mt-5
       .col-md-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="fac")
-          .row(titulo="Demanda concentración de energía térmica")
+          .row(titulo="Demanda de concentración de energía térmica")
             .col-md-10.mb-4.mb-md-0
               p.mb-3 Es inevitable que el proceso demande de elevadas concentraciones de energía térmica para disminuir la concentración y cantidad de agua contenida en los jugos de la caña, para que la transferencia de calor ocurra se requiere el uso del bagazo, residuo de la caña el cual es obtenido durante la etapa de molienda, como combustible, de esta manera al generar fuego se transfiere la energía calórica elevada a las pailas paneleras mientras contienen los jugos, para separar el agua del jugo de caña. La autosuficiencia de la energía térmica se evidencia por ser usado el bagazo como combustible, la cual puede afectar la transferencia de energía por la característica del combustible, pues el bagazo húmedo afecta la temperatura. Otra ganancia del bagazo es que su uso permite evitar o disminuir la deforestación de la zona reduciendo la concentración de gases liberados a la capa gaseosa ambiental contribuyendo con el cuidado de la atmósfera y la concentración de gases.
 
@@ -131,17 +131,17 @@
           
           .row(titulo="Evaporación")
             .col-md-10.mb-4.mb-md-0
-              p.mb-3 Durante la evaporación se presenta un cambio de fase del agua, la cual pasa de estado líquido a estado de vapor. Este valor normalmente se identifica como λ (letra griega lambda). Así mismo, al ir evaporando el agua se va concentrando la solución del jugo y por tanto el valor del calor latente de vaporización va disminuyendo, porque cada vez hay menos agua en los jugos. La mayor parte de la energía consumida durante la evaporación del agua de los se puede calcular usando la siguiente ecuación:
+              p.mb-3 Durante la evaporación se presenta un cambio de fase del agua, la cual pasa de estado líquido a estado de vapor. Este valor normalmente se identifica como λ (letra griega lambda). Así mismo, al ir evaporando el agua se va concentrando la solución del jugo y por tanto el valor del calor latente de vaporización va disminuyendo, porque cada vez hay menos agua en los jugos. La mayor parte de la energía consumida durante la evaporación del agua de los jugos se puede calcular usando la siguiente ecuación:
               .col-md-6.mx-auto.mb-5
                 figure
-                  img(src='@/assets/curso/temas/T2/img-11.png', alt='')
+                  img(src='@/assets/curso/temas/T2/img-11.svg', alt='')
               p.mb-4 <b>Donde:</b>
               ul.lista-ul
                 li
                   ul
                     li 
                       i.lista-ul__vineta
-                      | <b><i>mH2O</i></b> = Masa de agua a evaporar, kg
+                      | <b><i>mH<sub>2</sub>O</i></b> = Masa de agua a evaporar, kg
                     li 
                       i.lista-ul__vineta
                       | <b><i>λ</i></b> = Calor latente de vaporización, kcal/kg de agua (540)
