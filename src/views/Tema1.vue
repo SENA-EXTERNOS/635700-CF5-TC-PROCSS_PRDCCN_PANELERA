@@ -366,7 +366,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-32-.png', alt='')
+              img(src='@/assets/curso/temas/T1/img-32.svg', alt='')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
