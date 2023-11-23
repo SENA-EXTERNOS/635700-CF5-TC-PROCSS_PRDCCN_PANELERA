@@ -242,7 +242,8 @@ export default {
     {
       referencia:
         'Espinoza, G. (2017).<i> Estudio fluidodinámico y estructural de pailas paneleras pirotubulares</i> [Tesis de pregrado en Ingeniería Mecánico-Eléctrica. Universidad de Piura, Facultad de Ingeniería. Programa Académico de Ingeniería Mecánico-Eléctrica. Piura, Perú].',
-      link: 'https://pirhua.udep.edu.pe/handle/11042/2736',
+      link:
+        'https://docplayer.es/97653245-Estudio-fluidodinamico-y-estructural-de-pailas-paneleras-pirotubulares.html',
     },
     {
       referencia:
@@ -308,7 +309,7 @@ export default {
     {
       referencia:
         'Vargas, R. (2019). <i>Zonificación de la Hoya del Río Suárez por propiedades físicas del suelo, para el cultivo de caña panelera</i> [Tesis Maestría, Universidad Nacional].',
-      link: 'https://repositorio.unal.edu.co/handle/unal/76943',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/8744976.pdf',
     },
   ],
   creditos: {
